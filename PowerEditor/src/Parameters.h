@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -634,7 +634,7 @@ public:
 		, _month(month)
 		, _day(day)
 	{
-		assert(year > 0 && year <= 9999); // I don't think Notepad++ will last till AD 10000 :)
+		assert(year > 0 && year <= 9999); // I don't think Notepad+- will last till AD 10000 :)
 		assert(month > 0 && month <= 12);
 		assert(day > 0 && day <= 31);
 		assert(!(month == 2 && day > 29) &&
@@ -653,7 +653,7 @@ public:
 
 	void now();
 
-	std::wstring toString() const // Return Notepad++ date format : YYYYMMDD
+	std::wstring toString() const // Return Notepad+- date format : YYYYMMDD
 	{
 		TCHAR dateStr[16];
 		wsprintf(dateStr, TEXT("%04u%02u%02u"), _year, _month, _day);
@@ -855,7 +855,7 @@ struct NppGUI final
 	std::wstring _definedSessionExt;
 	std::wstring _definedWorkspaceExt;
 
-	// items with no Notepad++ GUI to set
+	// items with no Notepad+- GUI to set
 	std::wstring _commandLineInterpreter = CMD_INTERPRETER;
 
 	struct AutoUpdateOptions
@@ -1160,7 +1160,7 @@ public:
 	//Lexilla::GetLibraryPropertyNamesFn fnGLPN = nullptr;
 	//Lexilla::SetLibraryPropertyFn fnSLP = nullptr;
 
-	// For Notepad++
+	// For Notepad+-
 	ExternalLexerAutoIndentMode _autoIndentMode = ExternalLexerAutoIndentMode::Standard;
 };
 

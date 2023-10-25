@@ -343,17 +343,17 @@ Translation note:
 					<Item id="46001" name="Конфігуратор стилю..."/>
 					<Item id="46250" name="Визначити мову..."/>
 					<Item id="46300" name="Відкрити користувацьку теку мови..."/>
-					<Item id="46301" name="Збірка мов Notepad++ визначених користувачем"/>
+					<Item id="46301" name="Збірка мов Notepad+- визначених користувачем"/>
 					<Item id="46180" name="Визначено користувачем"/>
-					<Item id="47000" name="Про Notepad++"/>
+					<Item id="47000" name="Про Notepad+-"/>
 					<Item id="47010" name="Аргументи командного рядка..."/>
-					<Item id="47001" name="Домівка Notepad++"/>
-					<Item id="47002" name="Сторінка проєкту Notepad++"/>
-					<Item id="47003" name="Посібник користувача Notepad++"/>
-					<Item id="47004" name="Спільнота (Форум) Notepad++"/>
+					<Item id="47001" name="Домівка Notepad+-"/>
+					<Item id="47002" name="Сторінка проєкту Notepad+-"/>
+					<Item id="47003" name="Посібник користувача Notepad+-"/>
+					<Item id="47004" name="Спільнота (Форум) Notepad+-"/>
 					<Item id="47012" name="Інформація зневадження..."/>
 					<Item id="47005" name="Отримати більше плагінів"/>
-					<Item id="47006" name="Оновити Notepad++"/>
+					<Item id="47006" name="Оновити Notepad+-"/>
 					<Item id="47009" name="Встановити проксі оновлення..."/>
 					<Item id="48005" name="Імпортувати плагіни..."/>
 					<Item id="48006" name="Імпортувати теми стилів..."/>
@@ -961,7 +961,7 @@ Translation note:
 
 					<Item id="6131" name="Меню"/>
 					<Item id="6122" name="Приховати панель меню (Alt чи F10)"/>
-					<Item id="6132" name="Приховати ярлики ＋ ▼ ✕ у правій частині панелі меню (Необхідно перезапустити Notepad++)"/>
+					<Item id="6132" name="Приховати ярлики ＋ ▼ ✕ у правій частині панелі меню (Необхідно перезапустити Notepad+-)"/>
 
 					<Item id="6123" name="Локалізація"/>
 				</Global>
@@ -1075,7 +1075,7 @@ Translation note:
 				</DefaultDir>
 
 				<FileAssoc title="Асоціації файлів">
-					<Item id="4008" name="Щоб використовувати цю функцію, перезапустіть Notepad++ в режимі адміністратора."/>
+					<Item id="4008" name="Щоб використовувати цю функцію, перезапустіть Notepad+- в режимі адміністратора."/>
 					<Item id="4009" name="Підтримувані:"/>
 					<Item id="4010" name="Зареєстровані:"/>
 				</FileAssoc>
@@ -1148,7 +1148,7 @@ Translation note:
 				</Print>
 
 				<Searching title="Триває пошук">
-					<Item id="6902" name="Моноширинний шрифт у вікні Знайти (Необхідно перезапустити Notepad++)"/>
+					<Item id="6902" name="Моноширинний шрифт у вікні Знайти (Необхідно перезапустити Notepad+-)"/>
 					<Item id="6903" name="Вікно пошуку залишається відкритим після виведення результатів"/>
 					<Item id="6904" name="Підтвердити заміну всього в усіх відкритих документах"/>
 					<Item id="6905" name="Замінити: Не переходити до наступного входження"/>
@@ -1213,7 +1213,7 @@ Translation note:
 					<Item id="6152" name="Відкрити сеанс у новому екземплярі (автоматично зберігати сеанс при виході)"/>
 					<Item id="6153" name="Завжди відкривати в новому вікні"/>
 					<Item id="6154" name="Все в одному вікні (типово)"/>
-					<Item id="6155" name="* Зміна цих налаштувань потребує перезапуску Notepad++"/>
+					<Item id="6155" name="* Зміна цих налаштувань потребує перезапуску Notepad+-"/>
 					<Item id="6171" name="Налаштувати вставлення дати й часу"/>
 					<Item id="6175" name="Зворотний порядок типової дати й часу (короткий і довгий формати)"/>
 					<Item id="6172" name="Власний формат:"/>
@@ -1284,11 +1284,11 @@ Translation note:
 					<Item id="6313" name="Оновлювати без запиту"/>
 					<Item id="6325" name="Після оновлення прокрутити до останнього рядка"/>
 					<Item id="6322" name="Розширення файлу сеансу:"/>
-					<Item id="6323" name="Автоматичне оновлення Notepad++"/>
+					<Item id="6323" name="Автоматичне оновлення Notepad+-"/>
 					<Item id="6324" name="Перемикання документів (Ctrl+Tab)"/>
 					<Item id="6331" name="Показувати лише назву файлу в рядку заголовка"/>
 					<Item id="6334" name="Автовизначення кодування символів"/>
-					<Item id="6349" name="Використовувати DirectWrite (Може вдосконалити візуалізацію спеціальних символів, необхідний перезапуск Notepad++)"/>
+					<Item id="6349" name="Використовувати DirectWrite (Може вдосконалити візуалізацію спеціальних символів, необхідний перезапуск Notepad+-)"/>
 					<Item id="6337" name="Розш. файлу робочої області:"/>
 					<Item id="6114" name="Увімкнути"/>
 					<Item id="6117" name="Побудувати список в міру використання"/>
@@ -1364,17 +1364,17 @@ Translation note:
 		</Dialog>
 		<MessageBox>
 			<!-- $INT_REPLACE$ and $STR_REPLACE$ are place holders, don't translate these place holders. -->
-			<ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню Notepad++. Для застосування змін необхідно перезапустити Notepad++."/>
+			<ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню Notepad+-. Для застосування змін необхідно перезапустити Notepad+-."/>
 			<SaveCurrentModifWarning title="Зберегти поточну модифікацію" message="Ви повинні зберегти поточні зміни. Всі збережені зміни неможливо відмінити.  Продовжити?"/><!-- HowToReproduce: when you openned file is modified but unsaved yet, and you are changing file encoding. -->
 			<LoseUndoAbilityWarning title="Попередження неможливості відміни" message="Ви повинні зберегти поточні зміни. Всі збережені зміни неможливо відмінити.  Продовжити?"/><!-- HowToReproduce: when you openned file is modified and saved, then you are changing file encoding. -->
-			<CannotMoveDoc title="Перемістити в новий екземпляр Notepad++" message="Документ змінений. Збережіть його і спробуйте знову."/><!-- HowToReproduce: From your Notepad++ drag & drop a clean (not dirty) file to outside of Notepad++, another instance of Notepad++ will be created. Then from your first Notepad++ drag & drop an unsaved file to the new instance. -->
-			<DocReloadWarning title="Перезавантажити" message="Ви дійсно хочете перезавантажити поточний файл і втратити зміни, зроблені в Notepad++?"/>
+			<CannotMoveDoc title="Перемістити в новий екземпляр Notepad+-" message="Документ змінений. Збережіть його і спробуйте знову."/><!-- HowToReproduce: From your Notepad+- drag & drop a clean (not dirty) file to outside of Notepad+-, another instance of Notepad+- will be created. Then from your first Notepad+- drag & drop an unsaved file to the new instance. -->
+			<DocReloadWarning title="Перезавантажити" message="Ви дійсно хочете перезавантажити поточний файл і втратити зміни, зроблені в Notepad+-?"/>
 			<FileLockedWarning title="Збереження невдале" message="Перевірте, чи цей файл не відкритий в іншій програмі"/>
-			<FileAlreadyOpenedInNpp title="" message="Файл вже відкрито в Notepad++."/><!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
+			<FileAlreadyOpenedInNpp title="" message="Файл вже відкрито в Notepad+-."/><!-- HowToReproduce: Open a new document and open a file "c:/tmp/foo", save this new document by choosing "c:/tmp/foo" as file to save, reply the override popup "yes", then this message appears. -->
 			<RenameTabTemporaryNameAlreadyInUse title="Не вдалося перейменувати" message="Вказана назва вже використовується в іншій вкладці."/><!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
 			<DeleteFileFailed title="Видалити файл" message="Не вдалося видалити файл"/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 
-			<NbFileToOpenImportantWarning title="Надто велика кількість файлів для відкриття" message="$INT_REPLACE$ файлів невдовзі будуть відкриті. Ви дійсно хочете відкрити їх?"/><!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad++. -->
+			<NbFileToOpenImportantWarning title="Надто велика кількість файлів для відкриття" message="$INT_REPLACE$ файлів невдовзі будуть відкриті. Ви дійсно хочете відкрити їх?"/><!-- HowToReproduce: Check "Open all files of folder instead of launching Folder as Workspace on folder dropping" in "Default Directory" of Preferences dialog, then drop a folder which contains more then 200 files into Notepad+-. -->
 			<SettingsOnCloudError title="Налаштування хмарного сховища" message="Схоже, шлях налаштувань в хмарі встановлений на диск лише для читання, або в теку, яка потребує відповідних прав на запис. Ваші налаштування в хмарі будуть скасовані. Будь ласка, скиньте відповідні значення через діалог Налаштування."/>
 			<FilePathNotFoundWarning title="Відкриття файла" message="Файл, який ви намагаєтесь відкрити, не існує."/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<SessionFileInvalidError title="Не вдалося завантажити сеанс" message="Файл сеансу пошкоджений, або недійсний."/><!-- HowToReproduce: Save current session via menu "File -> Save Session...", use another editor to modify the session you saved to make it an invalid xml file. Then load this invalid session via menu "File -> Load Session...". -->
@@ -1386,13 +1386,13 @@ Translation note:
 			<DoDeleteOrNot title="Видалити файл" message="Файл &quot;$STR_REPLACE$&quot; буде переміщено до вашого смітника і цей документ буде закрито. Продовжити?"/>
 			<NoBackupDoSaveFile title="Зберегти" message="Не вдалося знайти ваш резервний файл (видалено ззовні). Збережіть його, інакше дані будуть втрачені Хочете зберегти файл &quot;$STR_REPLACE$&quot; ?"/>
 			<DoReloadOrNot title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;  Цей файл був змінений іншою програмою. Хочете перезавантажити його?"/>
-			<DoReloadOrNotAndLooseChange title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;  Цей файл був змінений іншою програмою. Хочете перезавантажити його і втратити всі зміни, зроблені в Notepad++?"/>
+			<DoReloadOrNotAndLooseChange title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;  Цей файл був змінений іншою програмою. Хочете перезавантажити його і втратити всі зміни, зроблені в Notepad+-?"/>
 			<PrehistoricSystemDetected title="Виявлено застарілу систему" message="Схоже, ви все ще використовуєте застарілу систему. Шкода, але ця функція працює лише на сучасній системі."/><!-- HowToReproduce: Launch "Document Map" under Windows XP. -->
-			<XpUpdaterProblem title="Система оновлення Notepad++" message="Система оновлення Notepad++ несумісна з XP, у зв'язку із застарілою системою безпеки XP. Хочете перейти на веб-сторінку Notepad++ для завантаження найновішої версії?"/><!-- HowToReproduce: Run menu "? -> Update Notepad++" under Windows XP. -->
-			<GUpProxyConfNeedAdminMode title="Параметри проксі" message="Перезапустіть Notepad++ в режимі Адміністратора для налаштування проксі."/>
+			<XpUpdaterProblem title="Система оновлення Notepad+-" message="Система оновлення Notepad+- несумісна з XP, у зв'язку із застарілою системою безпеки XP. Хочете перейти на веб-сторінку Notepad+- для завантаження найновішої версії?"/><!-- HowToReproduce: Run menu "? -> Update Notepad+-" under Windows XP. -->
+			<GUpProxyConfNeedAdminMode title="Параметри проксі" message="Перезапустіть Notepad+- в режимі Адміністратора для налаштування проксі."/>
 			<DocTooDirtyToMonitor title="Проблема моніторингу" message="Документ змінено. Будь ласка, збережіть зміни перед його моніторингом."/>
 			<DocNoExistToMonitor title="Проблема моніторингу" message="Файл повинен існувати для його моніторингу."/>
-			<FileTooBigToOpen title="Проблема розміру файлу" message="Файл завеликий для відкриття в Notepad++"/><!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
+			<FileTooBigToOpen title="Проблема розміру файлу" message="Файл завеликий для відкриття в Notepad+-"/><!-- HowToReproduce: Try to open a 4GB file (it's not easy to reproduce, it depends on your system). -->
 			<FileLoadingException title="Код винятку: $STR_REPLACE$" message="Сталася помилка при завантаженні файлу!"/>
 			<WantToOpenHugeFile title="Попередження при відкритті великих файлів" message="Відкриття файлів розміром 2 ГБ та більше може тривати декілька хвилин. Хочете відкрити?"/>
 			<CreateNewFileOrNot title="Створити новий файл" message="&quot;$STR_REPLACE$&quot; не існує. Створити його?"/>
@@ -1401,8 +1401,8 @@ Translation note:
 			<OpenFileNoFolderError title="Не вдалося відкрити файл" message="Неможливо відкрити &quot;$STR_REPLACE1$&quot;: Тека &quot;$STR_REPLACE2$&quot; не існує."/>
 			<FileBackupFailed title="Збій резервного копіювання файлу" message="Попередня версія файлу може бути не збережена в каталозі для резервного копіювання &quot;$STR_REPLACE$&quot;. Ви все ще хочете зберегти поточний файл?"/><!-- HowToReproduce: this message prevents from system failure. It's hard to reproduce. -->
 			<LoadStylersFailed title="Збій завантаження stylers.xml" message="Не вдалося завантажити &quot;$STR_REPLACE$&amp;quot!"/>
-			<LoadLangsFailed title="Конфігуратор" message="Збій завантаження langs.xml! Хочете відновити langs.xml?"/><!-- HowToReproduce: Close Notepad++. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad++. -->
-			<LoadLangsFailedFinal title="Конфігуратор" message="Збій завантаження langs.xml!"/><!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+			<LoadLangsFailed title="Конфігуратор" message="Збій завантаження langs.xml! Хочете відновити langs.xml?"/><!-- HowToReproduce: Close Notepad+-. Use another editor to remove all content of "langs.xml" (0 length) then save it. Open Notepad+-. -->
+			<LoadLangsFailedFinal title="Конфігуратор" message="Збій завантаження langs.xml!"/><!-- HowToReproduce: Close Notepad+-. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad+-. -->
 			<FolderAsWorspaceSubfolderExists title="Проблема з додаванням теки як робочої області" message="Підтека, яку ви хочете додати, вже існує. Вилучіть її корінь з панелі перш, ніж додавати теку &quot;$STR_REPLACE$&quot;."/><!-- HowToReproduce: Add a folder like "c:\temp\aFolder\" into "Folder as Workspace" panel, then try to add "c:\temp\". -->
 
 			<ProjectPanelChanged title="$STR_REPLACE$" message="Робоча область була змінена. Хочете зберегти її?"/>
@@ -1418,17 +1418,17 @@ Translation note:
 			<UDLRemoveCurrentLang title="Видалити поточну мову" message="Ви впевнені?"/>
 			<SCMapperDoDeleteOrNot title="Ви впевнені?" message="Ви дійсно бажаєте видалити цю комбінацію клавіш?"/>
 			<FindCharRangeValueError title="Проблема з діапазоном значень" message="Необхідно ввести значення від 0 до 255."/>
-			<OpenInAdminMode title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad++ в режимі адміністратора?"/>
-			<OpenInAdminModeWithoutCloseCurrent title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad++ в режимі адміністратора?"/>
-			<OpenInAdminModeFailed title="Не вдалося запустити в режимі адміністратора" message="Notepad++ не може бути відкритий в режимі адміністратора."/><!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
+			<OpenInAdminMode title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad+- в режимі адміністратора?"/>
+			<OpenInAdminModeWithoutCloseCurrent title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad+- в режимі адміністратора?"/>
+			<OpenInAdminModeFailed title="Не вдалося запустити в режимі адміністратора" message="Notepad+- не може бути відкритий в режимі адміністратора."/><!-- HowToReproduce: When you have no Admin privilege and you try to save a modified file in a protected location (for example: any file in sub-folder of "C:\Program Files\". This message will appear after replying "Yes" to "Open in Admin mode" dialog. -->
 			<ViewInBrowser title="Перегляд поточного файлу в браузері" message="У вашій системі не вдалося знайти програму."/>
-			<ExitToUpdatePlugins title="Ви збираєтеся закрити Notepad++" message="Якщо ви оберете ТАК, ви вийдете з Notepad++ для продовження операцій. Notepad++ перезапуститься після завершення всіх операцій. Продовжити?"/>
-			<NeedToRestartToLoadPlugins title="Необхідно перезапустити Notepad++" message="Необхідно перезапустити Notepad++ для завантаження встановлених плагінів."/><!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
-			<ChangeHistoryEnabledWarning title="Необхідно перезапустити Notepad++" message="Для увімкнення історії змін потрібно перезапустити Notepad++."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
-			<WindowsSessionExit title="Notepad++ - вихід із сеансу Windows" message="Сеанс Windows невдовзі буде завершено, але у вас є незбережені дані. Хочете вийти з Notepad++ зараз?"/>
+			<ExitToUpdatePlugins title="Ви збираєтеся закрити Notepad+-" message="Якщо ви оберете ТАК, ви вийдете з Notepad+- для продовження операцій. Notepad+- перезапуститься після завершення всіх операцій. Продовжити?"/>
+			<NeedToRestartToLoadPlugins title="Необхідно перезапустити Notepad+-" message="Необхідно перезапустити Notepad+- для завантаження встановлених плагінів."/><!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+			<ChangeHistoryEnabledWarning title="Необхідно перезапустити Notepad+-" message="Для увімкнення історії змін потрібно перезапустити Notepad+-."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+			<WindowsSessionExit title="Notepad+- - вихід із сеансу Windows" message="Сеанс Windows невдовзі буде завершено, але у вас є незбережені дані. Хочете вийти з Notepad+- зараз?"/>
 			<LanguageMenuCompactWarning title="Компактне меню мови" message="Цей параметр буде змінено під час наступного запуску."/><!-- HowToReproduce: toggle "Make language menu compact" via Preferences dialog "Language/Language Menu. -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Незбережені зміни будуть скасовані! Ви хочете зберегти зміни перед зміною теми?"/><!-- HowToReproduce: In the Style Configurator dialog change some theme and switch to other theme without saving. -->
-			<MacroAndRunCmdlWarning title="Сумісність макросів і команд виконання" message="Ваші макроси й команди виконання, збережені в Notepad++ v.8.5.2 (чи старіше), можуть бути несумісними з поточною версією Notepad++. Випробуйте ці команди та, за потреби, відредагуйте їх.  Або ж ви можете встановити старішу версію Notepad++ v8.5.2 та відновити свої попередні дані. Notepad++ збереже резервну копію вашого файлу &quot;shortcuts.xml&quot; з назвою &quot;shortcuts.xml.v8.5.2.backup&quot;. Перейменувавши файл &quot;shortcuts.xml.v8.5.2.backup&quot; на -&gt; &quot;shortcuts.xml&quot;, ваші команди мають відновитися і працювати правильно."/><!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up -->
+			<MacroAndRunCmdlWarning title="Сумісність макросів і команд виконання" message="Ваші макроси й команди виконання, збережені в Notepad+- v.8.5.2 (чи старіше), можуть бути несумісними з поточною версією Notepad+-. Випробуйте ці команди та, за потреби, відредагуйте їх.  Або ж ви можете встановити старішу версію Notepad+- v8.5.2 та відновити свої попередні дані. Notepad+- збереже резервну копію вашого файлу &quot;shortcuts.xml&quot; з назвою &quot;shortcuts.xml.v8.5.2.backup&quot;. Перейменувавши файл &quot;shortcuts.xml.v8.5.2.backup&quot; на -&gt; &quot;shortcuts.xml&quot;, ваші команди мають відновитися і працювати правильно."/><!-- HowToReproduce: Close Notepad+-, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad+-, delete or modify a shortcuts via Shortcut Mapper, close Notepad+-, then the message will show up -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="Історія буфера"/>
@@ -1547,8 +1547,8 @@ Translation note:
 			<word-chars-list-warning-end value="  у вашому списку символів."/><!-- HowToReproduce: In "Delimiter" section of Preferences dialog, check "Add your character as part of word\r(don't choose it unless you know what you're doing)", then type a white-space in the text field. -->
 			<backup-select-folder value="Виберіть теку для резервного копіювання"/><!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
 			<cloud-invalid-warning value="Неправильний шлях."/>
-			<cloud-restart-warning value="Перезапустіть Notepad++ для застосування змін."/>
-			<cloud-select-folder value="Виберіть теку, звідки/куди в Notepad++ читати/записувати свої параметри"/><!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
+			<cloud-restart-warning value="Перезапустіть Notepad+- для застосування змін."/>
+			<cloud-select-folder value="Виберіть теку, звідки/куди в Notepad+- читати/записувати свої параметри"/><!-- HowToReproduce: In "Cloud" section of Preferences dialog, check "Set your cloud location path here: ", then click the button "...". This message is displayed in the "Browse For Folder" dialog. -->
 			<default-open-save-select-folder value="Виберіть типову теку"/><!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
 			<shift-change-direction-tip value="Використовуйте Shift+Enter для пошуку у зворотному напрямку"/>
 			<two-find-buttons-tip value="2-кнопковий режим пошуку"/>

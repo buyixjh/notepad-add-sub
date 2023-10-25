@@ -27,9 +27,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>Notepad++</ProjectName>
+    <ProjectName>Notepad+-</ProjectName>
     <ProjectGuid>{FCF60E65-1B78-4D1D-AB59-4FC00AC8C248}</ProjectGuid>
-    <RootNamespace>Notepad++</RootNamespace>
+    <RootNamespace>Notepad+-</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -379,7 +379,7 @@
     <ClInclude Include="..\src\WinControls\ReadDirectoryChanges\ReadFileChanges.h" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="..\src\notepad++.exe.manifest" />
+    <Manifest Include="..\src\Notepad+-.exe.manifest" />
   </ItemGroup>
   <Import Project="notepadPlus.Resource.targets" />
   <Import Project="notepadPlus.uchardet.targets" />

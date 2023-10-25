@@ -9,7 +9,7 @@
 
 cmake_minimum_required(VERSION 3.4)
 
-PROJECT(Notepad++)
+PROJECT(Notepad+-)
 
 SET(projIncludDir	../../scintilla/include/
 					../../lexilla/include/
@@ -194,7 +194,7 @@ SET(src_files
 			./WinControls/ColourPicker/WordStyleDlg.cpp
 			./ScintillaComponent/xmlMatchedTagsHighlighter.cpp
 			./dpiAware.manifest
-			./notepad++.exe.manifest
+			./Notepad+-.exe.manifest
 )
 
 SET(include_files
@@ -419,8 +419,8 @@ find_library(LEXILLA_STATIC_LIBRARY
 	REQUIRED
 )
 
-ADD_EXECUTABLE(notepad++ ${option} ${src_files} ${include_files} ${rcFiles})
+ADD_EXECUTABLE(Notepad+- ${option} ${src_files} ${include_files} ${rcFiles})
 
 
-TARGET_LINK_LIBRARIES (notepad++ ${SCINTILLA_STATIC_LIBRARY} ${LEXILLA_STATIC_LIBRARY} ${win32_LIBRARIES})
+TARGET_LINK_LIBRARIES (Notepad+- ${SCINTILLA_STATIC_LIBRARY} ${LEXILLA_STATIC_LIBRARY} ${win32_LIBRARIES})
 

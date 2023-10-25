@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -1898,8 +1898,8 @@ intptr_t CALLBACK MarginsBorderEdgeSubDlg::run_dlgProc(UINT message, WPARAM wPar
 						NativeLangSpeaker* pNativeSpeaker = nppParam.getNativeLangSpeaker();
 						pNativeSpeaker->messageBox("ChangeHistoryEnabledWarning",
 							_hSelf,
-							TEXT("You have to restart Notepad++ to enable Change History."),
-							TEXT("Notepad++ need to be relaunched"),
+							TEXT("You have to restart Notepad+- to enable Change History."),
+							TEXT("Notepad+- need to be relaunched"),
 							MB_OK | MB_APPLMODAL);
 						svp._isChangeHistoryEnabled4NextSession = true;
 					}
@@ -5050,7 +5050,7 @@ intptr_t CALLBACK CloudAndLinkSubDlg::run_dlgProc(UINT message, WPARAM wParam, L
 					generic_string message;
 					if (nppParams.isCloudPathChanged())
 					{
-						message = pNativeSpeaker->getLocalizedStrFromID("cloud-restart-warning", TEXT("Please restart Notepad++ to take effect."));
+						message = pNativeSpeaker->getLocalizedStrFromID("cloud-restart-warning", TEXT("Please restart Notepad+- to take effect."));
 					}
 					::SetDlgItemText(_hSelf, IDC_SETTINGSONCLOUD_WARNING_STATIC, message.c_str());
 				}
@@ -5166,7 +5166,7 @@ intptr_t CALLBACK CloudAndLinkSubDlg::run_dlgProc(UINT message, WPARAM wParam, L
 					generic_string message;
 					if (nppParams.isCloudPathChanged())
 					{
-						message = pNativeSpeaker->getLocalizedStrFromID("cloud-restart-warning", TEXT("Please restart Notepad++ to take effect."));
+						message = pNativeSpeaker->getLocalizedStrFromID("cloud-restart-warning", TEXT("Please restart Notepad+- to take effect."));
 					}
 					// else set empty string
 					::SetDlgItemText(_hSelf, IDC_SETTINGSONCLOUD_WARNING_STATIC, message.c_str());
@@ -5189,7 +5189,7 @@ intptr_t CALLBACK CloudAndLinkSubDlg::run_dlgProc(UINT message, WPARAM wParam, L
 
 				case IDD_CLOUDPATH_BROWSE_BUTTON:
 				{
-					generic_string message = pNativeSpeaker->getLocalizedStrFromID("cloud-select-folder", TEXT("Select a folder from/to where Notepad++ reads/writes its settings"));
+					generic_string message = pNativeSpeaker->getLocalizedStrFromID("cloud-select-folder", TEXT("Select a folder from/to where Notepad+- reads/writes its settings"));
 					folderBrowser(_hSelf, message, IDC_CLOUDPATH_EDIT);
 				}
 				break;

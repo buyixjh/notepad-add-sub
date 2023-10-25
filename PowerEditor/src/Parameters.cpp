@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -55,7 +55,7 @@ struct ScintillaKeyDefinition
 	bool isAlt;
 	bool isShift;
 	int vKey;
-	int redirFunctionId;	//this gets set  when a function is being redirected through Notepad++ if Scintilla doesnt do it properly :)
+	int redirFunctionId;	//this gets set  when a function is being redirected through Notepad+- if Scintilla doesnt do it properly :)
 };
 
 
@@ -442,7 +442,7 @@ static const WinMenuKeyDefinition winKeyDefs[] =
 	// The following two commands are not in menu if (nppGUI._doesExistUpdater == 0).
 	// They cannot be derived from menu then, only for this reason the text is specified here.
 	// In localized environments, the text comes preferably from xml Menu/Main/Commands.
-	{ VK_NULL,    IDM_UPDATE_NPP,                               false, false, false, TEXT("Update Notepad++") },
+	{ VK_NULL,    IDM_UPDATE_NPP,                               false, false, false, TEXT("Update Notepad+-") },
 	{ VK_NULL,    IDM_CONFUPDATERPROXY,                         false, false, false, TEXT("Set Updater Proxy...") },
 	{ VK_NULL,    IDM_DEBUGINFO,                                false, false, false, nullptr },
 	{ VK_F1,      IDM_ABOUT,                                    false, false, false, nullptr }
@@ -1101,7 +1101,7 @@ std::wstring NppParameters::getSettingsFolder()
 	if (settingsFolderPath.empty())
 		return _nppPath;
 
-	pathAppend(settingsFolderPath, TEXT("Notepad++"));
+	pathAppend(settingsFolderPath, TEXT("Notepad+-"));
 	return settingsFolderPath;
 }
 
@@ -1121,7 +1121,7 @@ bool NppParameters::load()
 	_isLocal = (PathFileExists(localConfPath.c_str()) == TRUE);
 
 	// Under vista and windows 7, the usage of doLocalConf.xml is not allowed
-	// if Notepad++ is installed in "program files" directory, because of UAC
+	// if Notepad+- is installed in "program files" directory, because of UAC
 	if (_isLocal)
 	{
 		// We check if OS is Vista or greater version
@@ -1154,7 +1154,7 @@ bool NppParameters::load()
 	{
 		_userPath = getSpecialFolderLocation(CSIDL_APPDATA);
 
-		pathAppend(_userPath, TEXT("Notepad++"));
+		pathAppend(_userPath, TEXT("Notepad+-"));
 		if (!PathFileExists(_userPath.c_str()))
 			::CreateDirectory(_userPath.c_str(), NULL);
 
@@ -1411,7 +1411,7 @@ bool NppParameters::load()
 	//----------------------------------------------//
 	// nativeLang.xml : for per user				//
 	// In case of absence of user's nativeLang.xml, //
-	// We'll look in the Notepad++ Dir.			 //
+	// We'll look in the Notepad+- Dir.			 //
 	//----------------------------------------------//
 
 	std::wstring nativeLangPath;
@@ -1608,7 +1608,7 @@ bool NppParameters::load()
 	//-------------------------------------------------------------//
 	// noRestartAutomatically.xml                                  //
 	// This empty xml file is optional - user adds this empty file //
-	// manually in order to prevent Notepad++ registration         //
+	// manually in order to prevent Notepad+- registration         //
 	// for the Win10+ OS app-restart feature.                      //
 	//-------------------------------------------------------------//
 	filePath = _nppPath;
@@ -3688,10 +3688,10 @@ void NppParameters::writeShortcuts()
 
 			// Warn User about the current shortcut will be changed and it has been backup. If users' the shortcuts.xml has been corrupted
 			// due to recoded macro under v8.5.2 (or previous versions) being modified by v8.5.3 (or later versions),
-			// user can always go back to Notepad++ v8.5.2 and use the backup of shortcuts.xml 
+			// user can always go back to Notepad+- v8.5.2 and use the backup of shortcuts.xml
 			_pNativeLangSpeaker->messageBox("MacroAndRunCmdlWarning",
 				nullptr,
-				TEXT("Your Macro and Run commands saved in Notepad++ v.8.5.2 (or older) may not be compatible with the current version of Notepad++.\nPlease test those commands and, if needed, re-edit them.\n\nAlternatively, you can downgrade to Notepad++ v8.5.2 and restore your previous data.\nNotepad++ will backup your old \"shortcuts.xml\" and save it as \"shortcuts.xml.v8.5.2.backup\".\nRenaming \"shortcuts.xml.v8.5.2.backup\" -> \"shortcuts.xml\", your commands should be restored and work properly."),
+				TEXT("Your Macro and Run commands saved in Notepad+- v.8.5.2 (or older) may not be compatible with the current version of Notepad+-.\nPlease test those commands and, if needed, re-edit them.\n\nAlternatively, you can downgrade to Notepad+- v8.5.2 and restore your previous data.\nNotepad+- will backup your old \"shortcuts.xml\" and save it as \"shortcuts.xml.v8.5.2.backup\".\nRenaming \"shortcuts.xml.v8.5.2.backup\" -> \"shortcuts.xml\", your commands should be restored and work properly."),
 				TEXT("Macro and Run Commands Compatibility"),
 				MB_OK | MB_APPLMODAL | MB_ICONWARNING);
 		}
@@ -5943,7 +5943,7 @@ void NppParameters::feedGUIParameters(TiXmlNode *node)
 			if (optNameMonoFont)
 				_nppGUI._monospacedFontFindDlg = (lstrcmp(optNameMonoFont, TEXT("yes")) == 0);
 
-			//This is an option from previous versions of notepad++.  It is handled for compatibility with older settings.
+			//This is an option from previous versions of Notepad+-.  It is handled for compatibility with older settings.
 			const TCHAR* optStopFillingFindField = element->Attribute(TEXT("stopFillingFindField"));
 			if (optStopFillingFindField) 
 			{
@@ -8407,7 +8407,7 @@ void NppParameters::setUdlXmlDirtyFromXmlDoc(const TiXmlDocument* xmlDoc)
 
 Date::Date(const TCHAR *dateStr)
 {
-	// timeStr should be Notepad++ date format : YYYYMMDD
+	// timeStr should be Notepad+- date format : YYYYMMDD
 	assert(dateStr);
 	int D = lstrlen(dateStr);
 

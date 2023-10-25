@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -115,7 +115,7 @@ const UCHAR BASE_02 = 0x03; // Bin
 const int MARK_BOOKMARK = 20;
 const int MARK_HIDELINESBEGIN = 19;
 const int MARK_HIDELINESEND = 18;
-// 20 - 18 reserved for Notepad++ internal used
+// 20 - 18 reserved for Notepad+- internal used
 // 17 - 0  are free to use for plugins
 
 constexpr char g_ZWSP[] = "\xE2\x80\x8B";

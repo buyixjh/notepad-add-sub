@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
  <!--
--    Traducerea în română pentru Notepad++ 8.5.8
+-    Traducerea în română pentru Notepad+- 8.5.8
 -    Ultima modificare 12 septembrie 2023 de către Miloiu Andrei 	 
 	 Modificările din 30 ianuarie 2019 au fost făcute de către Barna Cosmin Marian
      Pentru actualizări vizitați: https://github.com/notepad-plus-plus/notepad-plus-plus/tree/master/PowerEditor/installer/nativeLang
@@ -345,17 +345,17 @@
                     <Item id="46001" name="Configurator de stiluri..."/>
                     <Item id="46250" name="Definire limbaj..."/>
                     <Item id="46300" name="Deschide folderul de limbă definit de utilizator..."/>
- 				    <Item id="46301" name="Colecția de limbi Notepad++ definită de utilizator"/>
+ 				    <Item id="46301" name="Colecția de limbi Notepad+- definită de utilizator"/>
                     <Item id="46180" name="Definit(ă) de utilizator"/>
-                    <Item id="47000" name="Despre Notepad++"/>
+                    <Item id="47000" name="Despre Notepad+-"/>
                     <Item id="47010" name="Argumente linie de comandă..."/>
-                    <Item id="47001" name="Pagină web Notepad++"/>
-                    <Item id="47002" name="Pagină proiect Notepad++"/>
+                    <Item id="47001" name="Pagină web Notepad+-"/>
+                    <Item id="47002" name="Pagină proiect Notepad+-"/>
                     <Item id="47003" name="Documentație online"/>
-                    <Item id="47004" name="Comunitatea Notepad++ (Forum)"/>
+                    <Item id="47004" name="Comunitatea Notepad+- (Forum)"/>
                     <Item id="47012" name="Informații depanare"/>
                     <Item id="47005" name="Descărcaţi mai multe module"/>
-                    <Item id="47006" name="Actualizare Notepad++"/>
+                    <Item id="47006" name="Actualizare Notepad+-"/>
                     <Item id="47009" name="Setare proxy actualizare..."/>
                     <Item id="48005" name="Importare modul(e) ..."/>
                     <Item id="48006" name="Importare temă(e) afișare..."/>
@@ -964,7 +964,7 @@
                  
                     <Item id="6131" name="Meniu"/>
                     <Item id="6122" name="Ascunderea barei de meniu (comutare cu Alt sau F10)"/>
-                    <Item id="6132" name="Ascunderea butoanelor din dreapta ＋ ▼ ✕ din bara de meniu (necesită repornirea Notepad++)"/>
+                    <Item id="6132" name="Ascunderea butoanelor din dreapta ＋ ▼ ✕ din bara de meniu (necesită repornirea Notepad+-)"/>
 					
                     <Item id="6123" name="Limba"/>
 					<Item id="6125" name="Panou listă documente"/>
@@ -1093,7 +1093,7 @@ Se pot defini mai mulți marcatori de coloană utilizând spațiul alb pentru a 
                 </DefaultDir>
 
                 <FileAssoc title="Asociere fișiere">
-					<Item id="4008" name="Te rugăm să închizi Notepad++ și să repornești Notepad++ în modul Administrator pentru a folosi această funcție."/>
+					<Item id="4008" name="Te rugăm să închizi Notepad+- și să repornești Notepad+- în modul Administrator pentru a folosi această funcție."/>
                     <Item id="4009" name="Extensii asociate:"/>
                     <Item id="4010" name="Extensii înregistrate:"/>
                 </FileAssoc>
@@ -1166,7 +1166,7 @@ Se pot defini mai mulți marcatori de coloană utilizând spațiul alb pentru a 
                 </Print>
 
                 <Searching title="Căutare">
-                    <Item id="6902" name="Folosirea scrisului monospațiat în caseta de dialog Căutare (necesită repornirea Notepad++)"/>
+                    <Item id="6902" name="Folosirea scrisului monospațiat în caseta de dialog Căutare (necesită repornirea Notepad+-)"/>
                     <Item id="6903" name="Dialogul de căutare rămâne deschis după căutarea care iese în fereastra cu rezultate"/>
                     <Item id="6904" name="Confirmă înlocuire tot în toate documentele deschise"/>
                     <Item id="6905" name="Înlocuire: Nu trece la următoarea apariție"/>
@@ -1229,10 +1229,10 @@ Se pot defini mai mulți marcatori de coloană utilizând spațiul alb pentru a 
 
                 <MultiInstance title="Instanțe multiple">
                     <Item id="6151" name="Setări instanțe multiple"/>
-                    <Item id="6152" name="Deschidere sesiune în instanță nouă Notepad++"/>
+                    <Item id="6152" name="Deschidere sesiune în instanță nouă Notepad+-"/>
                     <Item id="6153" name="Totdeauna în mod instanță multiplă"/>
                     <Item id="6154" name="Implicit (instanță unică)"/>
-                    <Item id="6155" name="* Modificarea acestor setări necesită repornirea Notepad++"/>
+                    <Item id="6155" name="* Modificarea acestor setări necesită repornirea Notepad+-"/>
                     <Item id="6171" name="Personalizarea inserării datei și timpului"/>
                     <Item id="6175" name="Inversarea ordinii implicite a datei și timpului (formatele scurte &amp;&amp; lungi)"/>
                     <Item id="6172" name="Format personalizat:"/>
@@ -1305,11 +1305,11 @@ Se pot defini mai mulți marcatori de coloană utilizând spațiul alb pentru a 
                     <Item id="6313" name="Actualizare silențioasă"/>
                     <Item id="6325" name="Derulare la ultima linie după actualizare"/>
                     <Item id="6322" name="Extensie fișier sesiune:"/>
-                    <Item id="6323" name="Activare autoactualizare Notepad++"/>
+                    <Item id="6323" name="Activare autoactualizare Notepad+-"/>
                     <Item id="6324" name="Comutare documente (Ctrl+Tab)"/>
                     <Item id="6331" name="Afișare doar nume fișier în bara de titlu"/>
                     <Item id="6334" name="Autodetectare codificare caractere"/>
-                    <Item id="6349" name="Folosire DirectWrite (Poate îmbunătăți afișarea caracterelor speciale, necesită repornirea Notepad++)"/>
+                    <Item id="6349" name="Folosire DirectWrite (Poate îmbunătăți afișarea caracterelor speciale, necesită repornirea Notepad+-)"/>
                     <Item id="6337" name="Extensie fișier spațiu de lucru:" />
                     <Item id="6114" name="Activare"/>
                     <Item id="6117" name="În ordinea utilizării"/>             
@@ -1388,10 +1388,10 @@ Poți reactiva acest dialog mai târziu, în Preferințe."/>
         </Dialog>
         <MessageBox> 
 		<!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Editare meniu contextual" message="Editarea fișierului contextMenu.xml vă permite să modificați meniul contextual al Notepad++.
-Trebuie să reporniți Notepad++ pentru a se aplica modificările efectuate în contextMenu.xml."/>
+            <ContextMenuXmlEditWarning title="Editare meniu contextual" message="Editarea fișierului contextMenu.xml vă permite să modificați meniul contextual al Notepad+-.
+Trebuie să reporniți Notepad+- pentru a se aplica modificările efectuate în contextMenu.xml."/>
             <NppHelpAbsentWarning title="Fișierul nu există" message="
-nu există. Vă rugăm să-l descărcați de pe site-ul Notepad++."/>
+nu există. Vă rugăm să-l descărcați de pe site-ul Notepad+-."/>
             <SaveCurrentModifWarning title="Salvare modificare curentă" message="Ar trebui să salvați modificările curente.
 Toate modificările salvate nu vor putea fi refăcute.
 
@@ -1400,10 +1400,10 @@ Continuați?"/>
 Toate modificările salvate nu vor putea fi refăcute.
 
 Continuați?"/>
-            <CannotMoveDoc title="Mutare în instanță nouă Notepad++" message="Documentul este modificat, salvați-l și încercați din nou."/>
-            <DocReloadWarning title="Reîncărcare" message="Sigur doriți să reîncărcați fișierul curent și să pierdeți modificările efectuate în Notepad++?"/>
+            <CannotMoveDoc title="Mutare în instanță nouă Notepad+-" message="Documentul este modificat, salvați-l și încercați din nou."/>
+            <DocReloadWarning title="Reîncărcare" message="Sigur doriți să reîncărcați fișierul curent și să pierdeți modificările efectuate în Notepad+-?"/>
             <FileLockedWarning title="Salvare eșuată" message="Verificați dacă acest fișier nu este accesat și de un alt program."/>
-            <FileAlreadyOpenedInNpp title="" message="Fișierul este deja deschis în Notepad++."/>
+            <FileAlreadyOpenedInNpp title="" message="Fișierul este deja deschis în Notepad+-."/>
 			<RenameTabTemporaryNameAlreadyInUse title="Redenumire eșuată" message="Numele specificat este deja folosit într-o altă filă."/><!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
 			<RenameTabTemporaryNameIsEmpty title="Redenumire eșuată" message="Numele specificat nu poate fi gol sau nu poate conține numai spațiu(i) sau tabulație(i)/TAB(-uri)."/><!-- HowToReproduce: Rename the tab of an untitled document and provide an empty string or only some white speces. -->
             <DeleteFileFailed title="Ștergerea fișierului" message="Ștergerea fișierului eșuată."/>
@@ -1447,14 +1447,14 @@ Doriți să-l reîncărcați?"/>
             <DoReloadOrNotAndLooseChange title="Reîncărcare" message="&quot;$STR_REPLACE$&quot;
 
 Acest fișier a fost modificat de un alt program.
-Doriți să-l reîncărcați și să anulați modificările efectuate în Notepad++?"/>
+Doriți să-l reîncărcați și să anulați modificările efectuate în Notepad+-?"/>
             <PrehistoricSystemDetected title="S-a detectat un sistem preistoric" message="Se pare că încă folosiți un sistem foarte vechi. Această funcție se poate executa doar pe un sistem modern."/>
-            <XpUpdaterProblem title="Actualizator Notepad++" message="Actualizatorul Notepad++ nu este compatibil cu Windows XP datorită nivelelor de securitate depășite ale acestuia.
-Doriți să vizitați pagina de descărcare a Notepad++ pentru a descărca ultima versiune?"/>
-			<GUpProxyConfNeedAdminMode title="Setări proxy" message="Te rugăm să repornești Notepad++ în modul Admin pentru a configura setările proxy."/>
+            <XpUpdaterProblem title="Actualizator Notepad+-" message="Actualizatorul Notepad+- nu este compatibil cu Windows XP datorită nivelelor de securitate depășite ale acestuia.
+Doriți să vizitați pagina de descărcare a Notepad+- pentru a descărca ultima versiune?"/>
+			<GUpProxyConfNeedAdminMode title="Setări proxy" message="Te rugăm să repornești Notepad+- în modul Admin pentru a configura setările proxy."/>
 			<DocTooDirtyToMonitor title="Problemă monitorizare" message="Documentul este necorespunzător. Salvați modificările înainte de a-l monitoriza."/>
             <DocNoExistToMonitor title="Problemă monitorizare" message="Pentru a putea fi monitorizat fișierul trebuie să existe."/>
-            <FileTooBigToOpen title="Problemă dimensiune fișier" message="Fișierul este prea mare pentru a fi deschis cu Notepad++"/>
+            <FileTooBigToOpen title="Problemă dimensiune fișier" message="Fișierul este prea mare pentru a fi deschis cu Notepad+-"/>
 			<FileLoadingException title="Cod de excepție: $STR_REPLACE$" message="A apărut o eroare în timpul încărcării fișierului!"/>
 			<WantToOpenHugeFile title="Avertizare de deschidere a unui fișier uriaș" message="Dechiderea unui fișier uriaș de peste 2GB ar putea dura câteva minute.
 Vrei să îl deschizi?"/>
@@ -1493,26 +1493,26 @@ alegeți altul."/>
             <SCMapperDoDeleteOrNot title="Sunteți sigur?" message="Sigur doriți să eliminați această combinație de taste?"/>
             <FindCharRangeValueError title="Problemă valoare interval" message="Ar trebui să introduceți o valoare între 0 și 255."/>
             <OpenInAdminMode title="Salvare eșuată" message="Fișierul nu poate fi salvat și s-ar putea să fie protejat.
-Doriți să lansați Notepad++ în mod Administrator?"/>
+Doriți să lansați Notepad+- în mod Administrator?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Salvare eșuată" message="Fișierul nu poate fi salvat și s-ar putea să fie protejat.
-Doriți să lansați Notepad++ în mod Administrator?"/>
-            <OpenInAdminModeFailed title="Deschidere în mod Administrator eșuat" message="Notepad++ nu poate fi deschis în mod Administrator."/>        
+Doriți să lansați Notepad+- în mod Administrator?"/>
+            <OpenInAdminModeFailed title="Deschidere în mod Administrator eșuat" message="Notepad+- nu poate fi deschis în mod Administrator."/>
             <ViewInBrowser title="Afişare fişier curent în navigator" message="Aplicaţia nu poate fi găsită în sistem."/>
-			<ExitToUpdatePlugins title="Urmează să ieși din Notepad++" message="Dacă apeși DA, o să ieși din Notepad++ pentru a continua operațiunile.
-Notepad++ va fi repornit după ce toate operațiunile vor fi terminate.
+			<ExitToUpdatePlugins title="Urmează să ieși din Notepad+-" message="Dacă apeși DA, o să ieși din Notepad+- pentru a continua operațiunile.
+Notepad+- va fi repornit după ce toate operațiunile vor fi terminate.
 Vrei să continui?"/>
-			<NeedToRestartToLoadPlugins title="Notepad++ trebuie să fie relansat" message="Trebuie să repornești Notepad++ pentru a încărcarca modulele instalate."/><!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
-			<ChangeHistoryEnabledWarning title="Notepad++ trebuie să fie relansat" message="Trebuie să repornești Notepad++ pentru a activa Istoricul schimbărilor."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
-			<WindowsSessionExit title="Notepad++ - Ieșirea sesiunii Windows" message="Sesiunea Windows este pe cale de a se termina, dar ai anumite date nesavate. Vre să ieși din Notepad++ acum?"/>
+			<NeedToRestartToLoadPlugins title="Notepad+- trebuie să fie relansat" message="Trebuie să repornești Notepad+- pentru a încărcarca modulele instalate."/><!-- HowToReproduce: Import a plugin via menu "Settings->Import->Import Plugin(s)...". -->
+			<ChangeHistoryEnabledWarning title="Notepad+- trebuie să fie relansat" message="Trebuie să repornești Notepad+- pentru a activa Istoricul schimbărilor."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+			<WindowsSessionExit title="Notepad+- - Ieșirea sesiunii Windows" message="Sesiunea Windows este pe cale de a se termina, dar ai anumite date nesavate. Vre să ieși din Notepad+- acum?"/>
 			<LanguageMenuCompactWarning title="Meniul de limbi compact" message="Această opțiune va fi schimbată la următoarea lansare."/><!-- HowToReproduce: toggle "Make language menu compact" via Preferences dialog "Language/Language Menu. -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Schimbările nesalvate urmează să fie anulate!
 Vreți să salvați schimbările înainte de a schimba tema?"/><!-- HowToReproduce: In the Style Configurator dialog change some theme and switch to other theme without saving. -->
-			<MacroAndRunCmdlWarning title="Compatibilitatea comenzilor Macro și Rulează" message="Comenzile tale Macro și Rulează salvate în Notepad++ v.8.5.2 (sau mai vechi) pot să nu fie compatibilie cu versiunea curentă de Notepad++.
+			<MacroAndRunCmdlWarning title="Compatibilitatea comenzilor Macro și Rulează" message="Comenzile tale Macro și Rulează salvate în Notepad+- v.8.5.2 (sau mai vechi) pot să nu fie compatibilie cu versiunea curentă de Notepad+-.
 Te rugăm să testezi comenzile și dacă e nevoie, să le re-editezi.
 
-Alternativ, poți să revii la Notepad++ v8.5.2 și poți restaura datele anterioare.
-Notepad++ îți va restaura vechiul &quot;shortcuts.xml&quot; și îl va salva ca &quot;shortcuts.xml.v8.5.2.backup&quot;.
-Redenumind &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, comenzile tale ar trebui restaurate și să lucreze perfect."/><!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up -->
+Alternativ, poți să revii la Notepad+- v8.5.2 și poți restaura datele anterioare.
+Notepad+- îți va restaura vechiul &quot;shortcuts.xml&quot; și îl va salva ca &quot;shortcuts.xml.v8.5.2.backup&quot;.
+Redenumind &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, comenzile tale ar trebui restaurate și să lucreze perfect."/><!-- HowToReproduce: Close Notepad+-, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad+-, delete or modify a shortcuts via Shortcut Mapper, close Notepad+-, then the message will show up -->
 			<NotEnoughRoom4Saving title="Salvare eșuată" message="Nu s-a putut salva fișierul.
 Se pare că nu este suficient spațiu pe disc pentru a salva fișierul. Fișierul tău (dvs.) nu este salvat."/>		
 		</MessageBox>
@@ -1633,8 +1633,8 @@ Se pare că nu este suficient spațiu pe disc pentru a salva fișierul. Fișieru
             <word-chars-list-warning-end value="  în lista ta de caractere."/>
 			<backup-select-folder value="Selectează un dosar ca director pentru copii de rezervă"/><!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
             <cloud-invalid-warning value="Cale nevalidă."/>
-            <cloud-restart-warning value="Reporniți Notepad++ pentru aplicare modificări."/>
-            <cloud-select-folder value="Selectare folder din/în care Notepad++ citește/scrie setările sale"/>
+            <cloud-restart-warning value="Reporniți Notepad+- pentru aplicare modificări."/>
+            <cloud-select-folder value="Selectare folder din/în care Notepad+- citește/scrie setările sale"/>
 			<default-open-save-select-folder value="Selectează un dosar ca director implicit"/><!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
             <shift-change-direction-tip value="Folosiți Shift+Enter pentru a căuta în direcția opusă"/>
             <two-find-buttons-tip value="Mod găsire cu 2 butoane"/>

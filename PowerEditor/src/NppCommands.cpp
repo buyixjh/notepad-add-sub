@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -3041,18 +3041,18 @@ void Notepad_plus::command(int id)
 		case IDM_SETTING_IMPORTPLUGIN :
         {
 			// Copy plugins to Plugins Home
-            const TCHAR *extFilterName = TEXT("Notepad++ plugin");
+            const TCHAR *extFilterName = TEXT("Notepad+- plugin");
             const TCHAR *extFilter = TEXT(".dll");
             vector<generic_string> copiedFiles = addNppPlugins(extFilterName, extFilter);
 
-            // Tell users to restart Notepad++ to load plugin
+            // Tell users to restart Notepad+- to load plugin
 			if (copiedFiles.size())
 			{
 				NativeLangSpeaker *pNativeSpeaker = (NppParameters::getInstance()).getNativeLangSpeaker();
 				pNativeSpeaker->messageBox("NeedToRestartToLoadPlugins",
 					_pPublicInterface->getHSelf(),
-					TEXT("You have to restart Notepad++ to load plugins you installed."),
-					TEXT("Notepad++ need to be relaunched"),
+					TEXT("You have to restart Notepad+- to load plugins you installed."),
+					TEXT("Notepad+- need to be relaunched"),
 					MB_OK | MB_APPLMODAL);
 			}
             break;
@@ -3061,7 +3061,7 @@ void Notepad_plus::command(int id)
         case IDM_SETTING_IMPORTSTYLETHEMS :
         {
             // get plugin source path
-            const TCHAR *extFilterName = TEXT("Notepad++ style theme");
+            const TCHAR *extFilterName = TEXT("Notepad+- style theme");
             const TCHAR *extFilter = TEXT(".xml");
             const TCHAR *destDir = TEXT("themes");
 
@@ -3134,7 +3134,7 @@ void Notepad_plus::command(int id)
         {
 			_nativeLangSpeaker.messageBox("ContextMenuXmlEditWarning",
 				_pPublicInterface->getHSelf(),
-				TEXT("Editing contextMenu.xml allows you to modify your Notepad++ popup context menu on edit zone.\rYou have to restart your Notepad++ to take effect after modifying contextMenu.xml."),
+				TEXT("Editing contextMenu.xml allows you to modify your Notepad+- popup context menu on edit zone.\rYou have to restart your Notepad+- to take effect after modifying contextMenu.xml."),
 				TEXT("Editing contextMenu"),
 				MB_OK|MB_APPLMODAL);
 
@@ -3423,7 +3423,7 @@ void Notepad_plus::command(int id)
 		case IDM_CMDLINEARGUMENTS:
 		{
 			// No translattable
-			::MessageBox(_pPublicInterface->getHSelf(), COMMAND_ARG_HELP, TEXT("Notepad++ Command Argument Help"), MB_OK | MB_APPLMODAL);
+			::MessageBox(_pPublicInterface->getHSelf(), COMMAND_ARG_HELP, TEXT("Notepad+- Command Argument Help"), MB_OK | MB_APPLMODAL);
 			break;
 		}
 
@@ -3442,8 +3442,8 @@ void Notepad_plus::command(int id)
 			{
 				long res = _nativeLangSpeaker.messageBox("XpUpdaterProblem",
 					_pPublicInterface->getHSelf(),
-					TEXT("Notepad++ updater is not compatible with XP due to the obsolete security layer under XP.\rDo you want to go to Notepad++ page to download the latest version?"),
-					TEXT("Notepad++ Updater"),
+					TEXT("Notepad+- updater is not compatible with XP due to the obsolete security layer under XP.\rDo you want to go to Notepad+- page to download the latest version?"),
+					TEXT("Notepad+- Updater"),
 					MB_YESNO);
 
 				if (res == IDYES)
@@ -3476,7 +3476,7 @@ void Notepad_plus::command(int id)
 						{
 							_nativeLangSpeaker.messageBox("GUpProxyConfNeedAdminMode",
 								_pPublicInterface->getHSelf(),
-								TEXT("Please relaunch Notepad++ in Admin mode to configure proxy."),
+								TEXT("Please relaunch Notepad+- in Admin mode to configure proxy."),
 								TEXT("Proxy Settings"),
 								MB_OK | MB_APPLMODAL);
 							return;

@@ -4,7 +4,7 @@ Translation note:
 1. Please install XML Tools plugin for formatting your XML translation. Via menu "Plugins -> XML Tools-> Pretty Print - indent only" command.
 2. All the comments are for explanation, they are not for translation.
 
-	German localization for Notepad++
+	German localization for Notepad+-
 
 	Please report errors, suggestions etc. here: https://github.com/notepad-plus-plus/notepad-plus-plus/issues
 	Check actual pull requests here too: https://github.com/notepad-plus-plus/notepad-plus-plus/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+german
@@ -352,17 +352,17 @@ Translation note:
 					<Item id="46001" name="&amp;Stile konfigurieren …"/>
 					<Item id="46250" name="Eigene Sprache &amp;definieren …"/>
 					<Item id="46300" name="Verzeichnis mit benutzerdefinierten Sprachen öffnen …"/>
-					<Item id="46301" name="Sammlung benutzerdefinierter Sprachen für Notepad++"/>
+					<Item id="46301" name="Sammlung benutzerdefinierter Sprachen für Notepad+-"/>
 					<Item id="46180" name="Benutzerdefiniert"/>
 					<Item id="47000" name="&amp;Info …"/>
 					<Item id="47010" name="&amp;Kommandozeilenparameter …"/>
-					<Item id="47001" name="Notepad++ im &amp;Web"/>
-					<Item id="47002" name="Notepad++ bei &amp;GitHub"/>
-					<Item id="47003" name="Notepad++ Online-Dokumentation"/>
-					<Item id="47004" name="Notepad++ Online-Forum"/>
+					<Item id="47001" name="Notepad+- im &amp;Web"/>
+					<Item id="47002" name="Notepad+- bei &amp;GitHub"/>
+					<Item id="47003" name="Notepad+- Online-Dokumentation"/>
+					<Item id="47004" name="Notepad+- Online-Forum"/>
 					<Item id="47012" name="Debug-Info"/>
 					<Item id="47005" name="&amp;Erweiterungen"/>
-					<Item id="47006" name="Notepad++ &amp;aktualisieren"/>
+					<Item id="47006" name="Notepad+- &amp;aktualisieren"/>
 					<Item id="47009" name="&amp;Proxy für Updater einstellen …"/>
 					<Item id="48005" name="Plugin(s) &amp;importieren …"/>
 					<Item id="48006" name="Stil-&amp;Themen importieren …"/>
@@ -959,7 +959,7 @@ Translation note:
 
 					<Item id="6131" name="Menü"/>
 					<Item id="6122" name="Menüleiste ausblenden (Umschalten mit Alt oder F10)"/>
-					<Item id="6132" name="Schaltflächen '＋ ▼ ✕' der Menüleiste verbergen (Neustart von Notepad++ erforderlich)"/>
+					<Item id="6132" name="Schaltflächen '＋ ▼ ✕' der Menüleiste verbergen (Neustart von Notepad+- erforderlich)"/>
 
 					<Item id="6123" name="Sprache:"/>
 				</Global>
@@ -1074,7 +1074,7 @@ Mehrere Spaltenmarkierungen können definiert werden, indem die Zahlen durch Lee
 				</DefaultDir>
 
 				<FileAssoc title="Dateiverknüpfungen">
-					<Item id="4008" name="Um diese Option zu nutzen muss Notepad++ im Administrator-Modus neu gestartet werden."/>
+					<Item id="4008" name="Um diese Option zu nutzen muss Notepad+- im Administrator-Modus neu gestartet werden."/>
 					<Item id="4009" name="Unterstützte Erw.:"/>
 					<Item id="4010" name="Registrierte Erw.:"/>
 				</FileAssoc>
@@ -1147,7 +1147,7 @@ Mehrere Spaltenmarkierungen können definiert werden, indem die Zahlen durch Lee
 				</Print>
 
 				<Searching title="Suche">
-					<Item id="6902" name="Festbreitenschrift im Dialogfeld 'Suchen' verwenden (Neustart von Notepad++ erforderlich)."/>
+					<Item id="6902" name="Festbreitenschrift im Dialogfeld 'Suchen' verwenden (Neustart von Notepad+- erforderlich)."/>
 					<Item id="6903" name="Der Suchdialog bleibt nach der Suche geöffnet, die im Ergebnisfenster ausgegeben wird"/>
 					<Item id="6904" name="Bestätigung für 'Alle Ersetzen' in allen offenen Dokumenten"/>
 					<Item id="6905" name="Ersetzen: Nach Ersetzung nicht zum nächsten Vorkommen springen"/>
@@ -1213,7 +1213,7 @@ Mehrere Spaltenmarkierungen können definiert werden, indem die Zahlen durch Lee
 					<Item id="6152" name="Sitzungsdateien in einer neuen Instanz öffnen (und die Sitzung beim Beenden automatisch speichern)"/>
 					<Item id="6153" name="Immer im Mehrinstanzen-Modus"/>
 					<Item id="6154" name="Standard (nur eine Instanz)"/>
-					<Item id="6155" name="Nach Änderung der Einstellung muss Notepad++ neu gestartet werden."/>
+					<Item id="6155" name="Nach Änderung der Einstellung muss Notepad+- neu gestartet werden."/>
 					<Item id="6171" name="Einfügen von Datum/Zeit anpassen"/>
 					<Item id="6175" name="Datum vor Zeit ausgeben (kurzes &amp;&amp; langes Format)"/>
 					<Item id="6172" name="Eigenes Format:"/>
@@ -1290,7 +1290,7 @@ Mehrere Spaltenmarkierungen können definiert werden, indem die Zahlen durch Lee
 					<Item id="6324" name="Dokumentenumschalter (Strg+Tab)"/>
 					<Item id="6331" name="Nur Dateinamen in der Titelleiste anzeigen"/>
 					<Item id="6334" name="Kodierung automatisch erkennen"/>
-					<Item id="6349" name="Verwende DirectWrite (kann die Darstellung von Sonderzeichen verbessern - erfordert Neustart von Notepad++)"/>
+					<Item id="6349" name="Verwende DirectWrite (kann die Darstellung von Sonderzeichen verbessern - erfordert Neustart von Notepad+-)"/>
 					<Item id="6337" name="Arbeitsbereichdatei-Erw.:"/>
 					<Item id="6114" name="Aktivieren"/>
 					<Item id="6117" name="In Reihenfolge der Benutzung"/>
@@ -1369,8 +1369,8 @@ Diese Wahl kann jederzeit in den Einstellungen angepasst werden."/>
 		</Dialog>
 		<MessageBox>
 			<!-- $INT_REPLACE$ and $STR_REPLACE$ are place holders, don't translate these place holders. -->
-			<ContextMenuXmlEditWarning title="Kontextmenü anpassen" message="Durch Bearbeiten der Datei 'contextMenu.xml' können Sie das Kontextmenü von Notepad++ anpassen.
-Nach dem Bearbeiten müssen Sie Notepad++ neu starten, damit die Änderungen wirksam werden."/>
+			<ContextMenuXmlEditWarning title="Kontextmenü anpassen" message="Durch Bearbeiten der Datei 'contextMenu.xml' können Sie das Kontextmenü von Notepad+- anpassen.
+Nach dem Bearbeiten müssen Sie Notepad+- neu starten, damit die Änderungen wirksam werden."/>
 			<SaveCurrentModifWarning title="Änderungen speichern" message="Bitte speichern Sie Ihre Änderungen.
 Alle gespeicherten Änderungen können nicht rückgängig gemacht werden.
 
@@ -1380,14 +1380,14 @@ Alle gespeicherten Änderungen können nicht rückgängig gemacht werden.
 
 Fortfahren?"/><!-- HowToReproduce: when you openned file is modified but unsaved yet, and you are changing file encoding. -->
 			<CannotMoveDoc title="In neue Instanz verschieben" message="Dokument wurde geändert.&#x0A;Bitte zuerst speichern und erneut versuchen."/>
-			<DocReloadWarning title="Datei wurde geändert!" message="Sind Sie sicher, dass Sie die Datei in der zuletzt&#x0A;gespeicherten Version erneut laden und die&#x0A;in Notepad++ gemachten Änderungen verwerfen wollen?"/>
-			<FileLockedWarning title="Speichern fehlgeschlagen!" message="Datei konnte von Notepad++ nicht gespeichert werden. &#x0A;Bitte überprüfen Sie, ob die Datei in einem anderen Programm geöffnet ist."/>
-			<FileAlreadyOpenedInNpp title="Datei bereits geöffnet" message="Die Datei ist bereits in Notepad++ geöffnet."/>
+			<DocReloadWarning title="Datei wurde geändert!" message="Sind Sie sicher, dass Sie die Datei in der zuletzt&#x0A;gespeicherten Version erneut laden und die&#x0A;in Notepad+- gemachten Änderungen verwerfen wollen?"/>
+			<FileLockedWarning title="Speichern fehlgeschlagen!" message="Datei konnte von Notepad+- nicht gespeichert werden. &#x0A;Bitte überprüfen Sie, ob die Datei in einem anderen Programm geöffnet ist."/>
+			<FileAlreadyOpenedInNpp title="Datei bereits geöffnet" message="Die Datei ist bereits in Notepad+- geöffnet."/>
 			<RenameTabTemporaryNameAlreadyInUse title="Umbenennen fehlgeschlagen!" message="Der angegebene Name wird bereits in einem anderen Tab verwendet."/><!-- HowToReproduce: Rename the tab of an untitled document and provide a name that is the same as an already-existing tab of an untitled document. -->
 			<RenameTabTemporaryNameIsEmpty title="Umbenennen fehlgeschlagen!" message="Der angegebene Name darf nicht leer sein oder nur Leerzeichen oder nur TAB's enthalten."/><!-- HowToReproduce: Rename the tab of an untitled document and provide an empty string or only some white speces. -->
 			<DeleteFileFailed title="Löschen fehlgeschlagen!" message="Datei konnte nicht gelöscht werden."/>
 
-			<NbFileToOpenImportantWarning title="Viele Dateien zu öffnen" message="$INT_REPLACE$ Dateien sollen in Notepad++ geöffnet werden.
+			<NbFileToOpenImportantWarning title="Viele Dateien zu öffnen" message="$INT_REPLACE$ Dateien sollen in Notepad+- geöffnet werden.
 Sind Sie sicher?"/>
 			<SettingsOnCloudError title="Cloud-Einstellungen" message="Der von Ihnen angegebene Pfad für die Einstellungen in der Cloud erlaubt kein
 Speichern oder es fehlen die Schreibberechtigungen.
@@ -1427,12 +1427,12 @@ Soll die Datei erneut geladen werden?"/>
 Diese Datei wurde durch ein anderes Programm geändert.
 Soll die Datei erneut geladen werden und die Änderungen ignoriert werden?"/>
 			<PrehistoricSystemDetected title="Altes Betriebssystem festgestellt" message="Anscheinend verwenden Sie ein veraltetes Betriebssystem - diese Funktion funktioniert nur mit einem modernen Betriebssystem."/>
-			<XpUpdaterProblem title="Automatisches Update" message="Die Update-Funktion von Notepad++ ist unter Windows XP wegen fehlender Sicherheitsebene nicht kompatibel.
-Soll auf die Homepage von Notepad++ gewechselt werden um die aktuellste Version herunterzuladen?"/>
-			<GUpProxyConfNeedAdminMode title="Proxyeinstellungen" message="Um Proxyeinstellungen vorzunehmen muss Notepad++ im Administrator-Modus neu gestartet werden."/>
+			<XpUpdaterProblem title="Automatisches Update" message="Die Update-Funktion von Notepad+- ist unter Windows XP wegen fehlender Sicherheitsebene nicht kompatibel.
+Soll auf die Homepage von Notepad+- gewechselt werden um die aktuellste Version herunterzuladen?"/>
+			<GUpProxyConfNeedAdminMode title="Proxyeinstellungen" message="Um Proxyeinstellungen vorzunehmen muss Notepad+- im Administrator-Modus neu gestartet werden."/>
 			<DocTooDirtyToMonitor title="Überwachungsproblem" message="Die Datei ist unsauber. Bitte vor der Überwachung die Änderungen speichern."/>
 			<DocNoExistToMonitor title="Überwachungsproblem" message="Die Datei muss existieren, um überwacht werden zu können."/>
-			<FileTooBigToOpen title="Problem mit Dateigröße" message="Die Datei ist zu groß, um mit Notepad++ geöffnet zu werden."/>
+			<FileTooBigToOpen title="Problem mit Dateigröße" message="Die Datei ist zu groß, um mit Notepad+- geöffnet zu werden."/>
 			<FileLoadingException title="Ausnahme-Code: $STR_REPLACE$" message="Beim Laden der Datei ist ein Fehler aufgetreten!"/>
 			<WantToOpenHugeFile title="Warnung vor Dateigröße" message="Das Öffnen von Dateien größer als 2 GB kann mehrere Minuten dauern.
 Soll die Datei trotzdem geöffnet werden?"/>
@@ -1470,26 +1470,26 @@ Bitte wählen Sie einen anderen Namen."/>
 			<SCMapperDoDeleteOrNot title="Bestätigung" message="Soll die Tastenkombination wirklich gelöscht werden?"/>
 			<FindCharRangeValueError title="Problem mit Wertebereich" message="Der Wert muss zwischen 0 und 255 liegen."/>
 			<OpenInAdminMode title="Speichern fehlgeschlagen" message="Die Datei konnte nicht gespeichert werden, eventuell wegen vorhandenem Schreibschutz.
-Soll dazu Notepad++ im Administrator-Modus gestartet werden?"/>
+Soll dazu Notepad+- im Administrator-Modus gestartet werden?"/>
 			<OpenInAdminModeWithoutCloseCurrent title="Speichern fehlgeschlagen" message="Die Datei konnte nicht gespeichert werden, eventuell wegen vorhandenem Schreibschutz.
-Soll dazu Notepad++ im Administrator-Modus gestartet werden?"/>
-			<OpenInAdminModeFailed title="Öffnen im Administrator-Modus fehlgeschlagen" message="Notepad++ konnte nicht im Administrator-Modus gestartet werden."/>
+Soll dazu Notepad+- im Administrator-Modus gestartet werden?"/>
+			<OpenInAdminModeFailed title="Öffnen im Administrator-Modus fehlgeschlagen" message="Notepad+- konnte nicht im Administrator-Modus gestartet werden."/>
 			<ViewInBrowser title="Aktuelle Datei im Browser betrachten" message="Die Anwendung konnte nicht gefunden werden."/>
-			<ExitToUpdatePlugins title="Notepad++ wird beendet" message="Beim Drücken auf 'Ja' wird Notepad++ beendet um die Vorgänge abzuschließen.
-Notepad++ wird neu gestartet.
+			<ExitToUpdatePlugins title="Notepad+- wird beendet" message="Beim Drücken auf 'Ja' wird Notepad+- beendet um die Vorgänge abzuschließen.
+Notepad+- wird neu gestartet.
 Fortsetzen?"/>
-			<NeedToRestartToLoadPlugins title="Notepad++ muss neu gestartet werden" message="Ein Neustart von Notepad++ ist zum Laden der Plugins erforderlich."/>
-			<ChangeHistoryEnabledWarning title="Notepad++ muss neu gestartet werden" message="Ein Neustart von Notepad++ ist für das Aktivieren der Änderungshistorie erforderlich."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
-			<WindowsSessionExit title="Notepad++ - Windows wird beendet" message="Windows wird beendet aber es gibt noch ungespeicherte Daten. Soll Notepad++ jetzt beendet werden?"/>
+			<NeedToRestartToLoadPlugins title="Notepad+- muss neu gestartet werden" message="Ein Neustart von Notepad+- ist zum Laden der Plugins erforderlich."/>
+			<ChangeHistoryEnabledWarning title="Notepad+- muss neu gestartet werden" message="Ein Neustart von Notepad+- ist für das Aktivieren der Änderungshistorie erforderlich."/><!-- HowToReproduce: uncheck "Display Change History" via Preferences dialog "Marges/Border/Edge. -->
+			<WindowsSessionExit title="Notepad+- - Windows wird beendet" message="Windows wird beendet aber es gibt noch ungespeicherte Daten. Soll Notepad+- jetzt beendet werden?"/>
 			<LanguageMenuCompactWarning title="Verschachteltes Sprachmenü" message="Diese Änderung wird erst nach dem nächsten Start aktiv."/><!-- HowToReproduce: toggle "Make language menu compact" via Preferences dialog "Language/Language Menu. -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Änderungen wurden nicht gespeichert.
 Möchten Sie die Änderungen speichern, bevor Sie das Thema wechseln?"/><!-- HowToReproduce: In the Style Configurator dialog change some theme and switch to other theme without saving. -->
-			<MacroAndRunCmdlWarning title="Kompatibiltät der Makros und Ausführungs-Kommandos" message="Die in Notepad++ gespeicherten Makros und Ausführungs-Kommandos v.8.5.2 (oder älter) könnten ev. mit der aktuellen Version von Notepad++ nicht kompatibel sein.
+			<MacroAndRunCmdlWarning title="Kompatibiltät der Makros und Ausführungs-Kommandos" message="Die in Notepad+- gespeicherten Makros und Ausführungs-Kommandos v.8.5.2 (oder älter) könnten ev. mit der aktuellen Version von Notepad+- nicht kompatibel sein.
 Bitte die Kommandos daher testen und falls nötig editieren.
 
-Alternativ dazu kann auch auf die ältere Version Notepad++ v8.5.2 gewechselt und dort die aktuellen Daten gesichert werden.
-Notepad++ wird ein Backup der alten &quot;shortcuts.xml&quot; machen und die Datei als &quot;shortcuts.xml.v8.5.2.backup&quot; speichern.
-Beim darauf folgenden Umbenennen der &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot; sollten die Kommandos wiederhergestellt sein und wieder funktionieren."/><!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up -->
+Alternativ dazu kann auch auf die ältere Version Notepad+- v8.5.2 gewechselt und dort die aktuellen Daten gesichert werden.
+Notepad+- wird ein Backup der alten &quot;shortcuts.xml&quot; machen und die Datei als &quot;shortcuts.xml.v8.5.2.backup&quot; speichern.
+Beim darauf folgenden Umbenennen der &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot; sollten die Kommandos wiederhergestellt sein und wieder funktionieren."/><!-- HowToReproduce: Close Notepad+-, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad+-, delete or modify a shortcuts via Shortcut Mapper, close Notepad+-, then the message will show up -->
 			<NotEnoughRoom4Saving title="Speichern fehlgeschlagen" message="Konnte Datei nicht speichern.
 Es ist nicht genug Speicherplatz vorhanden, daher wurde die Datei nicht gespeichert."/>
 		</MessageBox>
@@ -1610,8 +1610,8 @@ Es ist nicht genug Speicherplatz vorhanden, daher wurde die Datei nicht gespeich
 			<word-chars-list-warning-end value=" in der Liste der Wortzeichen."/>
 			<backup-select-folder value="Wählen Sie ein Sicherungsverzeichnis"/><!-- HowToReproduce: Settings > Preferences > Backup > [...] -->
 			<cloud-invalid-warning value="Ungültiger Pfad."/>
-			<cloud-restart-warning value="Zum Übernehmen Notepad++ bitte neu starten."/>
-			<cloud-select-folder value="Wählen Sie ein Verzeichnis, in dem Notepad++ seine Einstellungen speichert bzw. liest"/>
+			<cloud-restart-warning value="Zum Übernehmen Notepad+- bitte neu starten."/>
+			<cloud-select-folder value="Wählen Sie ein Verzeichnis, in dem Notepad+- seine Einstellungen speichert bzw. liest"/>
 			<default-open-save-select-folder value="Wählen Sie ein Standardverzeichnis"/><!-- HowToReproduce: Settings > Preferences > Default Directory > [...] -->
 			<shift-change-direction-tip value="Shift+Enter verwenden um die Suchrichtung umzudrehen."/>
 			<two-find-buttons-tip value="Modus mit 2 Suchknöpfen"/>

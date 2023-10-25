@@ -11,10 +11,10 @@
 	   For example: <ToolBarIcons icoFolderName="myAwesomeIcons" />
 	4. Go into "toolbarIcons" folder and create a new folder with the exact name of the icon set name you provided in "icoFolderName".
 	5. Put all your customized icons into "[toolbarIcons.xml's folder]\toolbarIcons\myAwesomeIcons\".
-	6. Now it's the magic moment: Relaunch Notepad++ and you'll see your icon set instead of the default icons.
+	6. Now it's the magic moment: Relaunch Notepad+- and you'll see your icon set instead of the default icons.
 	
 	Note:
-	1. If you find the file "doLocalConf.xml" in the Notepad++ installed directory, you will find the "config.xml" in Notepad++ installed directory. Otherwise it should be in "%APPDATA%\Notepad++\" directory.
+	1. If you find the file "doLocalConf.xml" in the Notepad+- installed directory, you will find the "config.xml" in Notepad+- installed directory. Otherwise it should be in "%APPDATA%\Notepad+-\" directory.
 	2. if "icoFolderName" value is an empty string, the path of icons will be in "[toolbarIcons.xml's folder]\toolbarIcons\default\" folder.
 	
 	Each replacing icon (45 icons) has the fixed and specific name:

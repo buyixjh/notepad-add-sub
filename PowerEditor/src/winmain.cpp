@@ -1,4 +1,4 @@
-// This file is part of Notepad++ project
+// This file is part of Notepad+- project
 // Copyright (C)2021 Don HO <don.h@free.fr>
 
 // This program is free software: you can redistribute it and/or modify
@@ -38,7 +38,7 @@ void allowPrivilegeMessages(const Notepad_plus_Window& notepad_plus_plus, winVer
 	const DWORD MSGFLT_ALLOW = 1;
 	#endif
 	// Tell UAC that lower integrity processes are allowed to send WM_COPYDATA (or other) messages to this process (or window)
-	// This (WM_COPYDATA) allows opening new files to already opened elevated Notepad++ process via explorer context menu.
+	// This (WM_COPYDATA) allows opening new files to already opened elevated Notepad+- process via explorer context menu.
 	if (winVer >= WV_VISTA || winVer == WV_UNKNOWN)
 	{
 		HMODULE hDll = GetModuleHandle(TEXT("user32.dll"));
@@ -96,7 +96,7 @@ void parseCommandLine(const TCHAR* commandLine, ParamVector& paramVector)
 	bool isStringInArg = false;
 	bool isInWhiteSpace = true;
 
-	int zArg = 0; // for "-z" argument: Causes Notepad++ to ignore the next command line argument (a single word, or a phrase in quotes).
+	int zArg = 0; // for "-z" argument: Causes Notepad+- to ignore the next command line argument (a single word, or a phrase in quotes).
 	              // The only intended and supported use for this option is for the Notepad Replacement syntax.
 
 	bool shouldBeTerminated = false; // If "-z" argument has been found, zArg value will be increased from 0 to 1.
@@ -335,22 +335,22 @@ const TCHAR FLAG_MONITOR_FILES[] = TEXT("-monitor");
 void doException(Notepad_plus_Window & notepad_plus_plus)
 {
 	Win32Exception::removeHandler();	//disable exception handler after excpetion, we dont want corrupt data structurs to crash the exception handler
-	::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Notepad++ will attempt to save any unsaved data. However, dataloss is very likely."), TEXT("Recovery initiating"), MB_OK | MB_ICONINFORMATION);
+	::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Notepad+- will attempt to save any unsaved data. However, dataloss is very likely."), TEXT("Recovery initiating"), MB_OK | MB_ICONINFORMATION);
 
 	TCHAR tmpDir[1024];
 	GetTempPath(1024, tmpDir);
 	std::wstring emergencySavedDir = tmpDir;
-	emergencySavedDir += TEXT("\\Notepad++ RECOV");
+	emergencySavedDir += TEXT("\\Notepad+- RECOV");
 
 	bool res = notepad_plus_plus.emergency(emergencySavedDir);
 	if (res)
 	{
-		std::wstring displayText = TEXT("Notepad++ was able to successfully recover some unsaved documents, or nothing to be saved could be found.\r\nYou can find the results at :\r\n");
+		std::wstring displayText = TEXT("Notepad+- was able to successfully recover some unsaved documents, or nothing to be saved could be found.\r\nYou can find the results at :\r\n");
 		displayText += emergencySavedDir;
 		::MessageBox(Notepad_plus_Window::gNppHWND, displayText.c_str(), TEXT("Recovery success"), MB_OK | MB_ICONINFORMATION);
 	}
 	else
-		::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Unfortunatly, Notepad++ was not able to save your work. We are sorry for any lost data."), TEXT("Recovery failure"), MB_OK | MB_ICONERROR);
+		::MessageBox(Notepad_plus_Window::gNppHWND, TEXT("Unfortunatly, Notepad+- was not able to save your work. We are sorry for any lost data."), TEXT("Recovery failure"), MB_OK | MB_ICONERROR);
 }
 
 // Looks for -z arguments and strips command line arguments following those, if any
@@ -486,7 +486,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE /*hPrevInstance
 	}
 
 	if (showHelp)
-		::MessageBox(NULL, COMMAND_ARG_HELP, TEXT("Notepad++ Command Argument Help"), MB_OK);
+		::MessageBox(NULL, COMMAND_ARG_HELP, TEXT("Notepad+- Command Argument Help"), MB_OK);
 
 	if (cmdLineParams._localizationPath != TEXT(""))
 	{
@@ -503,7 +503,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE /*hPrevInstance
 	bool doUpdateNpp = nppGui._autoUpdateOpt._doAutoUpdate;
 	bool doUpdatePluginList = nppGui._autoUpdateOpt._doAutoUpdate;
 
-	if (doFunctionListExport || doPrintAndQuit) // export functionlist feature will serialize fuctionlist on the disk, then exit Notepad++. So it's important to not launch into existing instance, and keep it silent.
+	if (doFunctionListExport || doPrintAndQuit) // export functionlist feature will serialize fuctionlist on the disk, then exit Notepad+-. So it's important to not launch into existing instance, and keep it silent.
 	{
 		isMultiInst = true;
 		doUpdateNpp = doUpdatePluginList = false;
@@ -740,7 +740,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE /*hPrevInstance
 	catch (const Win32Exception & ex)
 	{
 		TCHAR message[1024];	//TODO: sane number
-		wsprintf(message, TEXT("An exception occured. Notepad++ cannot recover and must be shut down.\r\nThe exception details are as follows:\r\n")
+		wsprintf(message, TEXT("An exception occured. Notepad+- cannot recover and must be shut down.\r\nThe exception details are as follows:\r\n")
 			TEXT("Code:\t0x%08X\r\nType:\t%S\r\nException address: 0x%p"), ex.code(), ex.what(), ex.where());
 		::MessageBox(Notepad_plus_Window::gNppHWND, message, TEXT("Win32Exception"), MB_OK | MB_ICONERROR);
 		mdump.writeDump(ex.info());

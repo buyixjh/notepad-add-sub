@@ -1,6 +1,6 @@
 # Contributing
 
-***Ask not what Notepad++ can do for you - ask what you can do for Notepad++***
+***Ask not what Notepad+- can do for you - ask what you can do for Notepad+-***
 
 ## Reporting Issues
 
@@ -8,11 +8,11 @@ Bug reports are appreciated. Following a few guidelines listed below will help s
 
 1. Search the issue tracker to see if it has already been reported.
 2. Disable your plugins to see if one of them is the problem. You can do this by renaming your `plugins` folder to something else.
-3. Only report an issue with a plugin if it is one of the standard plugins included in the Notepad++ installation. Any other plugin issue should be reported to its respective issue tracker (see e.g. [plugin_list_x86.md](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x86.md) or [plugin_list_x64.md](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md) to find the homepage with further information on that for a plugins). The standard plugins include (for v7.9.5):
+3. Only report an issue with a plugin if it is one of the standard plugins included in the Notepad+- installation. Any other plugin issue should be reported to its respective issue tracker (see e.g. [plugin_list_x86.md](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x86.md) or [plugin_list_x64.md](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md) to find the homepage with further information on that for a plugins). The standard plugins include (for v7.9.5):
     * NppExport
     * Converter
     * mimeTools
-4. Fill the complete information: a template will be shown when you create an issue. Please fill the complete information in the template. To fill the field **Debug Information** you can get it from your Notepad++ via menu `?>Debug Info...`. Please take your time to fill these information. If you don't bother to complete the information we need to help you, we won't bother to solve your problem either.
+4. Fill the complete information: a template will be shown when you create an issue. Please fill the complete information in the template. To fill the field **Debug Information** you can get it from your Notepad+- via menu `?>Debug Info...`. Please take your time to fill these information. If you don't bother to complete the information we need to help you, we won't bother to solve your problem either.
     
 
 ## Pull Requests
@@ -23,7 +23,7 @@ Opening an issue beforehand allows the administrators and the community to discu
 
 ### Guidelines for pull requests
 
-1. Respect existing Notepad++ coding style. Observe the code near your intended change, and attempt to preserve the style of that code with the changes you make.
+1. Respect existing Notepad+- coding style. Observe the code near your intended change, and attempt to preserve the style of that code with the changes you make.
 2. Create a new branch for each PR. **Make sure your branch name wasn't used before** - you can add date (for example `patch3_20200528`) to ensure its uniqueness.
 3. Single feature or bug-fix per PR.
 4. Create a PR with a single commit to make the review process easier.

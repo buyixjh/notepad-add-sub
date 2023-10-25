@@ -1,4 +1,4 @@
-Notepad++ v8.5.8 bug-fixes and new features:
+Notepad+- v8.5.8 bug-fixes and new features:
 
  1. Fix "Clear Read-Only Flag" command not working immediately regression.
  2. Fix saving files losing Alternate Data Stream issue.
@@ -32,4 +32,4 @@ Included plugins:
 
 Updater (Installer only):
 
-* WinGup (for Notepad++) v5.2.6
+* WinGup (for Notepad+-) v5.2.6

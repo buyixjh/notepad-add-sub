@@ -1,5 +1,5 @@
 echo off
-rem This file is part of Notepad++ project
+rem This file is part of Notepad+- project
 rem Copyright (C)2021 Don HO <don.h@free.fr>
 rem
 rem This program is free software: you can redistribute it and/or modify
@@ -22,15 +22,15 @@ if %SIGN% == 0 goto NoSign
 set signtoolWin11="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\signtool.exe"
 set signtoolWin10="C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe"
 
-set signBinary=%signtoolWin11% sign /fd SHA256 /tr http://timestamp.digicert.com /td sha256 /a /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad++" /du https://notepad-plus-plus.org/
+set signBinary=%signtoolWin11% sign /fd SHA256 /tr http://timestamp.digicert.com /td sha256 /a /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://notepad-plus-plus.org/
 
-set signArmBinary=%signtoolWin10% sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad++" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/
+set signArmBinary=%signtoolWin10% sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/
 
-%signBinary% ..\bin\notepad++.exe
+%signBinary% ..\bin\Notepad+-.exe
 If ErrorLevel 1 goto End
-%signBinary% ..\bin64\notepad++.exe
+%signBinary% ..\bin64\Notepad+-.exe
 If ErrorLevel 1 goto End
-%signArmBinary% ..\binarm64\notepad++.exe
+%signArmBinary% ..\binarm64\Notepad+-.exe
 If ErrorLevel 1 goto End
 
 %signBinary% ..\bin\NppShell.x86.dll
@@ -92,7 +92,7 @@ If ErrorLevel 1 goto End
 rmdir /S /Q .\build
 mkdir .\build
 
-rem Notepad++ minimalist package
+rem Notepad+- minimalist package
 rmdir /S /Q .\minimalist
 mkdir .\minimalist
 mkdir .\minimalist\userDefineLangs
@@ -120,7 +120,7 @@ copy /Y ..\bin\doLocalConf.xml .\minimalist\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\minimalist\
 If ErrorLevel 1 goto End
-copy /Y ..\bin\"notepad++.exe" .\minimalist\
+copy /Y ..\bin\"Notepad+-.exe" .\minimalist\
 If ErrorLevel 1 goto End
 copy /Y ".\themes\DarkModeDefault.xml" .\minimalist\themes\
 If ErrorLevel 1 goto End
@@ -155,7 +155,7 @@ copy /Y ..\bin\doLocalConf.xml .\minimalist64\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\minimalist64\
 If ErrorLevel 1 goto End
-copy /Y ..\bin64\"notepad++.exe" .\minimalist64\
+copy /Y ..\bin64\"Notepad+-.exe" .\minimalist64\
 If ErrorLevel 1 goto End
 copy /Y ".\themes\DarkModeDefault.xml" .\minimalist64\themes\
 If ErrorLevel 1 goto End
@@ -190,7 +190,7 @@ copy /Y ..\bin\doLocalConf.xml .\minimalistArm64\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\minimalistArm64\
 If ErrorLevel 1 goto End
-copy /Y ..\binarm64\"notepad++.exe" .\minimalistArm64\
+copy /Y ..\binarm64\"Notepad+-.exe" .\minimalistArm64\
 If ErrorLevel 1 goto End
 copy /Y ".\themes\DarkModeDefault.xml" .\minimalistArm64\themes\
 If ErrorLevel 1 goto End
@@ -198,10 +198,10 @@ copy /Y ..\src\toolbarIcons.xml .\minimalistArm64\
 If ErrorLevel 1 goto End
 
 
-rem Remove old built Notepad++ 32-bit package
+rem Remove old built Notepad+- 32-bit package
 rmdir /S /Q .\zipped.package.release
 
-rem Re-build Notepad++ 32-bit package folders
+rem Re-build Notepad+- 32-bit package folders
 mkdir .\zipped.package.release
 mkdir .\zipped.package.release\updater
 mkdir .\zipped.package.release\localization
@@ -217,10 +217,10 @@ mkdir .\zipped.package.release\plugins\Config
 mkdir .\zipped.package.release\plugins\doc
 
 
-rem Remove old built Notepad++ 64-bit package
+rem Remove old built Notepad+- 64-bit package
 rmdir /S /Q .\zipped.package.release64
 
-rem Re-build Notepad++ 64-bit package folders
+rem Re-build Notepad+- 64-bit package folders
 mkdir .\zipped.package.release64
 mkdir .\zipped.package.release64\updater
 mkdir .\zipped.package.release64\localization
@@ -236,10 +236,10 @@ mkdir .\zipped.package.release64\plugins\Config
 mkdir .\zipped.package.release64\plugins\doc
 
 
-rem Remove old built Notepad++ ARM64-bit package
+rem Remove old built Notepad+- ARM64-bit package
 rmdir /S /Q .\zipped.package.releaseArm64
 
-rem Re-build Notepad++ ARM64-bit package folders
+rem Re-build Notepad+- ARM64-bit package folders
 mkdir .\zipped.package.releaseArm64
 mkdir .\zipped.package.releaseArm64\updater
 mkdir .\zipped.package.releaseArm64\localization
@@ -255,7 +255,7 @@ mkdir .\zipped.package.releaseArm64\plugins\Config
 mkdir .\zipped.package.releaseArm64\plugins\doc
 
 
-rem Basic: Copy needed files into Notepad++ 32-bit package folders
+rem Basic: Copy needed files into Notepad+- 32-bit package folders
 copy /Y ..\..\LICENSE .\zipped.package.release\license.txt
 If ErrorLevel 1 goto End
 copy /Y ..\bin\readme.txt .\zipped.package.release\
@@ -276,14 +276,14 @@ copy /Y ..\bin\doLocalConf.xml .\zipped.package.release\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\zipped.package.release\
 If ErrorLevel 1 goto End
-copy /Y ..\bin\"notepad++.exe" .\zipped.package.release\
+copy /Y ..\bin\"Notepad+-.exe" .\zipped.package.release\
 If ErrorLevel 1 goto End
 copy /Y ..\src\toolbarIcons.xml .\zipped.package.release\
 If ErrorLevel 1 goto End
 
 
 
-rem Basic Copy needed files into Notepad++ 64-bit package folders
+rem Basic Copy needed files into Notepad+- 64-bit package folders
 copy /Y ..\..\LICENSE .\zipped.package.release64\license.txt
 If ErrorLevel 1 goto End
 copy /Y ..\bin\readme.txt .\zipped.package.release64\
@@ -304,13 +304,13 @@ copy /Y ..\bin\doLocalConf.xml .\zipped.package.release64\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\zipped.package.release64\
 If ErrorLevel 1 goto End
-copy /Y ..\bin64\"notepad++.exe" .\zipped.package.release64\
+copy /Y ..\bin64\"Notepad+-.exe" .\zipped.package.release64\
 If ErrorLevel 1 goto End
 copy /Y ..\src\toolbarIcons.xml .\zipped.package.release64\
 If ErrorLevel 1 goto End
 
 
-rem Basic Copy needed files into Notepad++ ARM64 package folders
+rem Basic Copy needed files into Notepad+- ARM64 package folders
 copy /Y ..\..\LICENSE .\zipped.package.releaseArm64\license.txt
 If ErrorLevel 1 goto End
 copy /Y ..\bin\readme.txt .\zipped.package.releaseArm64\
@@ -331,13 +331,13 @@ copy /Y ..\bin\doLocalConf.xml .\zipped.package.releaseArm64\
 If ErrorLevel 1 goto End
 copy /Y ..\bin\nppLogNulContentCorruptionIssue.xml .\zipped.package.releaseArm64\
 If ErrorLevel 1 goto End
-copy /Y ..\binarm64\"notepad++.exe" .\zipped.package.releaseArm64\
+copy /Y ..\binarm64\"Notepad+-.exe" .\zipped.package.releaseArm64\
 If ErrorLevel 1 goto End
 copy /Y ..\src\toolbarIcons.xml .\zipped.package.releaseArm64\
 If ErrorLevel 1 goto End
 
 
-rem Plugins: Copy needed files into Notepad++ 32-bit package folders
+rem Plugins: Copy needed files into Notepad+- 32-bit package folders
 copy /Y "..\bin\plugins\NppExport\NppExport.dll" .\zipped.package.release\plugins\NppExport\
 If ErrorLevel 1 goto End
 copy /Y "..\bin\plugins\mimeTools\mimeTools.dll" .\zipped.package.release\plugins\mimeTools\
@@ -345,7 +345,7 @@ If ErrorLevel 1 goto End
 copy /Y "..\bin\plugins\NppConverter\NppConverter.dll" .\zipped.package.release\plugins\NppConverter\
 If ErrorLevel 1 goto End
 
-rem Plugins: Copy needed files into Notepad++ 64-bit package folders
+rem Plugins: Copy needed files into Notepad+- 64-bit package folders
 copy /Y "..\bin64\plugins\NppExport\NppExport.dll" .\zipped.package.release64\plugins\NppExport\
 If ErrorLevel 1 goto End
 copy /Y "..\bin64\plugins\mimeTools\mimeTools.dll" .\zipped.package.release64\plugins\mimeTools\
@@ -353,7 +353,7 @@ If ErrorLevel 1 goto End
 copy /Y "..\bin64\plugins\NppConverter\NppConverter.dll" .\zipped.package.release64\plugins\NppConverter\
 If ErrorLevel 1 goto End
 
-rem Plugins: Copy needed files into Notepad++ 64-bit package folders
+rem Plugins: Copy needed files into Notepad+- 64-bit package folders
 copy /Y "..\binarm64\plugins\NppExport\NppExport.dll" .\zipped.package.releaseArm64\plugins\NppExport\
 If ErrorLevel 1 goto End
 copy /Y "..\binarm64\plugins\mimeTools\mimeTools.dll" .\zipped.package.releaseArm64\plugins\mimeTools\
@@ -362,7 +362,7 @@ copy /Y "..\binarm64\plugins\NppConverter\NppConverter.dll" .\zipped.package.rel
 If ErrorLevel 1 goto End
 
 
-rem localizations: Copy all files into Notepad++ 32-bit/64-bit package folders
+rem localizations: Copy all files into Notepad+- 32-bit/64-bit package folders
 copy /Y ".\nativeLang\*.xml" .\zipped.package.release\localization\
 If ErrorLevel 1 goto End
 copy /Y ".\nativeLang\*.xml" .\zipped.package.release64\localization\
@@ -370,7 +370,7 @@ If ErrorLevel 1 goto End
 copy /Y ".\nativeLang\*.xml" .\zipped.package.releaseArm64\localization\
 If ErrorLevel 1 goto End
 
-rem files API: Copy all files into Notepad++ 32-bit/64-bit package folders
+rem files API: Copy all files into Notepad+- 32-bit/64-bit package folders
 copy /Y ".\APIs\*.xml" .\zipped.package.release\autoCompletion\
 If ErrorLevel 1 goto End
 copy /Y ".\APIs\*.xml" .\zipped.package.release64\autoCompletion\
@@ -378,7 +378,7 @@ If ErrorLevel 1 goto End
 copy /Y ".\APIs\*.xml" .\zipped.package.releaseArm64\autoCompletion\
 If ErrorLevel 1 goto End
 
-rem FunctionList files: Copy all files into Notepad++ 32-bit/64-bit package folders
+rem FunctionList files: Copy all files into Notepad+- 32-bit/64-bit package folders
 copy /Y ".\functionList\*.xml" .\zipped.package.release\functionList\
 If ErrorLevel 1 goto End
 copy /Y ".\functionList\*.xml" .\zipped.package.release64\functionList\
@@ -386,7 +386,7 @@ If ErrorLevel 1 goto End
 copy /Y ".\functionList\*.xml" .\zipped.package.releaseArm64\functionList\
 If ErrorLevel 1 goto End
 
-rem Markdown as UserDefineLanguge: Markdown syntax highlighter into Notepad++ 32-bit/64-bit package folders
+rem Markdown as UserDefineLanguge: Markdown syntax highlighter into Notepad+- 32-bit/64-bit package folders
 copy /Y "..\bin\userDefineLangs\markdown._preinstalled.udl.xml" .\zipped.package.release\userDefineLangs\
 If ErrorLevel 1 goto End
 copy /Y "..\bin\userDefineLangs\markdown._preinstalled.udl.xml" .\zipped.package.release64\userDefineLangs\
@@ -400,7 +400,7 @@ If ErrorLevel 1 goto End
 copy /Y "..\bin\userDefineLangs\markdown._preinstalled_DM.udl.xml" .\zipped.package.releaseArm64\userDefineLangs\
 If ErrorLevel 1 goto End
 
-rem theme: Copy all files into Notepad++ 32-bit/64-bit package folders
+rem theme: Copy all files into Notepad+- 32-bit/64-bit package folders
 copy /Y ".\themes\*.xml" .\zipped.package.release\themes\
 If ErrorLevel 1 goto End
 copy /Y ".\themes\*.xml" .\zipped.package.release64\themes\

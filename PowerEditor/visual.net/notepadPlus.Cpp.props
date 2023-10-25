@@ -45,7 +45,7 @@
     <Link>
       <AdditionalDependencies>comctl32.lib;shlwapi.lib;shell32.lib;Dbghelp.lib;Version.lib;Crypt32.lib;wintrust.lib;Sensapi.lib;wininet.lib;imm32.lib;msimg32.lib;uxtheme.lib;dwmapi.lib;libscintilla.lib;liblexilla.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
-      <OutputFile>$(OutDir)notepad++.exe</OutputFile>
+      <OutputFile>$(OutDir)Notepad+-.exe</OutputFile>
       <Version>1.0</Version>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -119,16 +119,16 @@ copy "..\src\langs.model.xml" "$(OutDir)langs.model.xml"
 copy "..\src\stylers.model.xml" "$(OutDir)stylers.model.xml"
 copy "..\src\shortcuts.xml" "$(OutDir)shortcuts.xml"
 copy "..\src\contextMenu.xml" "$(OutDir)contextMenu.xml"
-"mt.exe" -nologo -manifest "..\src\notepad++.exe.manifest" -outputresource:"$(OutDir)notepad++.exe"
-"mt.exe" -updateresource:"$(OutDir)notepad++.exe";#1 -manifest "..\src\dpiAware.manifest"
+"mt.exe" -nologo -manifest "..\src\Notepad+-.exe.manifest" -outputresource:"$(OutDir)Notepad+-.exe"
+"mt.exe" -updateresource:"$(OutDir)Notepad+-.exe";#1 -manifest "..\src\dpiAware.manifest"
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(PlatformToolset)|$(Configuration)'=='ClangCL|Debug'">
     <PostBuildEvent>
       <Command>
-"mt.exe" -nologo -manifest "..\src\notepad++.exe.manifest" -outputresource:"$(OutDir)notepad++.exe"
-"mt.exe" -updateresource:"$(OutDir)notepad++.exe";#1 -manifest "..\src\dpiAware.manifest"
+"mt.exe" -nologo -manifest "..\src\Notepad+-.exe.manifest" -outputresource:"$(OutDir)Notepad+-.exe"
+"mt.exe" -updateresource:"$(OutDir)Notepad+-.exe";#1 -manifest "..\src\dpiAware.manifest"
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
