@@ -23,20 +23,20 @@ Web sites:
 ***********
 
 Notepad+- official site:
-	https://notepad-plus-plus.org/
+	https://github.com/buyixjh/notepad-add-sub
 
 Notepad+- project site:
-	https://github.com/notepad-plus-plus/notepad-plus-plus/
+	https://github.com/buyixjh/notepad-add-sub/
 
 Notepad+- user manual:
 	https://npp-user-manual.org/
 
 Notepad+- forum:
-	https://community.notepad-plus-plus.org/
+	https://github.com/buyixjh/notepad-add-sub
 
 
 Author:
 *******
 
 Don Ho <don.h@free.fr>
-	https://notepad-plus-plus.org/author/
+	https://github.com/buyixjh/notepad-add-subauthor/

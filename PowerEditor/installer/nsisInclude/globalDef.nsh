@@ -58,7 +58,7 @@
 !define ProdVer		"${VERSION_MAJOR}.${VERSION_MINOR}"
 !define LegalCopyright		"Copyleft 1998-2017 by Don HO"
 
-!define APPWEBSITE "https://notepad-plus-plus.org/"
+!define APPWEBSITE "https://github.com/buyixjh/notepad-add-sub"
 
 !define UNINSTALL_REG_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APPNAME}"
 !define MEMENTO_REGISTRY_ROOT HKLM

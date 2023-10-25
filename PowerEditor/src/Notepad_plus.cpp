@@ -8795,7 +8795,7 @@ void Notepad_plus::clearChangesHistory()
 	_pNonEditView->redraw(); // Prevent clonned document visual glichy on another view
 }
 
-// Based on https://github.com/notepad-plus-plus/notepad-plus-plus/issues/12248#issuecomment-1258561261.
+// Based on https://github.com/buyixjh/notepad-add-sub/issues/12248#issuecomment-1258561261.
 void Notepad_plus::changedHistoryGoTo(int idGoTo)
 {
 	int mask =	(1 << SC_MARKNUM_HISTORY_REVERTED_TO_ORIGIN) |

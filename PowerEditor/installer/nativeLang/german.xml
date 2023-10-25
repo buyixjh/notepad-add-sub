@@ -6,11 +6,11 @@ Translation note:
 
 	German localization for Notepad+-
 
-	Please report errors, suggestions etc. here: https://github.com/notepad-plus-plus/notepad-plus-plus/issues
-	Check actual pull requests here too: https://github.com/notepad-plus-plus/notepad-plus-plus/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+german
+	Please report errors, suggestions etc. here: https://github.com/buyixjh/notepad-add-sub/issues
+	Check actual pull requests here too: https://github.com/buyixjh/notepad-add-sub/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+german
 
 	The most recent version of this file can usually be downloaded from:
-	https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/installer/nativeLang/german.xml
+	https://github.com/buyixjh/notepad-add-sub/blob/master/PowerEditor/installer/nativeLang/german.xml
 	or a copy at: http://www.should.keepfree.de/N++/german.xml.txt (rename to german.xml)
 -->
 <NotepadPlus>

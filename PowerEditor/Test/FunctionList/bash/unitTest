@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# bash parser should be fixed so we can use the content of "unitTest.expected.result.correct".
-# Check the bug here:
-# https://github.com/notepad-plus-plus/notepad-plus-plus/issues/9019
-
 setenv()
 
 {

@@ -153,38 +153,38 @@ m 1111111111111111111111111111111111111111111111111111111111111111111111111 m
 
 Space detection:
 
-u "http://github.com/notepad-plus-plus/notepad-plus-plus" u
+u "https://github.com/buyixjh/notepad-add-sub" u
 m 0111111111111111111111111111111111111111111111111111110 m
 
-u "https://github.com /notepad-plus-plus/notepad-plus-plus" u
+u "https://github.com/buyixjh/notepad-add-sub" u
 m 011111111111111111100000000000000000000000000000000000000 m
 
-u "https://github.com/notepad plus plus/notepad-plus-plus" u
+u "https://github.com/buyixjh/notepad-add-sub" u
 m 01111111111111111111111111100000000000000000000000000000 m
 
 
 
 Unwanted trailing character removal:
 
-u (https://github.com/notepad-plus-plus/notepad-plus-plus) u
+u (https://github.com/buyixjh/notepad-add-sub) u
 m 01111111111111111111111111111111111111111111111111111110 m
 
-u [https://github.com/notepad-plus-plus/notepad-plus-plus] u
+u [https://github.com/buyixjh/notepad-add-sub] u
 m 01111111111111111111111111111111111111111111111111111110 m
 
-u https://github.com/notepad-plus-plus/notepad-plus-plus; u
+u https://github.com/buyixjh/notepad-add-sub; u
 m 1111111111111111111111111111111111111111111111111111110 m
 
-u https://github.com/notepad-plus-plus/notepad-plus-plus? u
+u https://github.com/buyixjh/notepad-add-sub? u
 m 1111111111111111111111111111111111111111111111111111110 m
 
-u https://github.com/notepad-plus-plus/notepad-plus-plus! u
+u https://github.com/buyixjh/notepad-add-sub! u
 m 1111111111111111111111111111111111111111111111111111110 m
 
-u https://github.com/notepad-plus-plus/notepad-plus-plus# u
+u https://github.com/buyixjh/notepad-add-sub# u
 m 1111111111111111111111111111111111111111111111111111110 m
 
-u http://github.com/notepad-plus-plus/notepad-plus-plus#fragment u
+u https://github.com/buyixjh/notepad-add-sub#fragment u
 m 11111111111111111111111111111111111111111111111111111111111111 m
 
 u (e.g., https://en.wikipedia.org/wiki/Saw_(2003_film))? u

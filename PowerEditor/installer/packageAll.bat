@@ -22,9 +22,9 @@ if %SIGN% == 0 goto NoSign
 set signtoolWin11="C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\signtool.exe"
 set signtoolWin10="C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe"
 
-set signBinary=%signtoolWin11% sign /fd SHA256 /tr http://timestamp.digicert.com /td sha256 /a /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://notepad-plus-plus.org/
+set signBinary=%signtoolWin11% sign /fd SHA256 /tr http://timestamp.digicert.com /td sha256 /a /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://github.com/buyixjh/notepad-add-sub
 
-set signArmBinary=%signtoolWin10% sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://notepad-plus-plus.org/ /t http://timestamp.digicert.com/
+set signArmBinary=%signtoolWin10% sign /f %NPP_CERT% /p %NPP_CERT_PWD% /d "Notepad+-" /du https://github.com/buyixjh/notepad-add-sub /t http://timestamp.digicert.com/
 
 %signBinary% ..\bin\Notepad+-.exe
 If ErrorLevel 1 goto End

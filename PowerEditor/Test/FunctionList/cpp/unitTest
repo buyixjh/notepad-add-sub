@@ -5616,7 +5616,6 @@ void NppParameters::createXmlTreeFromGUIParams()
 		GUIConfigElement->SetAttribute(TEXT("short"), pStr);
 	}
 
-	// <GUIConfig name="stylerTheme" path="C:\sources\notepad-plus-plus\PowerEditor\visual.net\..\bin\stylers.xml" />
 	{
 		TiXmlElement *GUIConfigElement = (newGUIRoot->InsertEndChild(TiXmlElement(TEXT("GUIConfig"))))->ToElement();
 		GUIConfigElement->SetAttribute(TEXT("name"), TEXT("stylerTheme"));

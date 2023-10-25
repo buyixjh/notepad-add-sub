@@ -147,7 +147,7 @@ Function checkCompatibility
 	StrCmp $WinVer "XP" 0 xp_endTest ; XP
 		MessageBox MB_YESNO|MB_ICONSTOP "This version of Notepad+- doesn't support Windows XP. The installation will be aborted.$\n$\nDo you want to go to Notepad+- download page for downloading the last version which supports XP (v7.9.2)?" IDYES xp_openDlPage IDNO xp_goQuit
 xp_openDlPage:
-		ExecShell "open" "https://notepad-plus-plus.org/downloads/v7.9.2/"
+		ExecShell "open" "https://github.com/buyixjh/notepad-add-subdownloads/v7.9.2/"
 xp_goQuit:
 		Abort
 xp_endTest:
@@ -155,7 +155,7 @@ xp_endTest:
 	StrCmp $WinVer "2003" 0 ws2003_endTest ; Windows Server 2003
 		MessageBox MB_YESNO|MB_ICONSTOP "This version of Notepad+- doesn't support Windows Server 2003. The installation will be aborted.$\n$\nDo you want to go to Notepad+- download page for downloading the last version which supports this OS?" IDYES ws2003_openDlPage IDNO ws2003_goQuit
 ws2003_openDlPage:
-		ExecShell "open" "https://notepad-plus-plus.org/downloads/v7.9.2/"
+		ExecShell "open" "https://github.com/buyixjh/notepad-add-subdownloads/v7.9.2/"
 ws2003_goQuit:
 		Abort
 ws2003_endTest:
@@ -167,7 +167,7 @@ ws2003_endTest:
 		; we cannot run ARM64 binaries on a x86/x64 CPU (the other way around is possible - x86 on ARM64 CPU)
 		MessageBox MB_YESNO|MB_ICONSTOP "This installer contains ARM64 version of Notepad+- incompatible with your computer processor running, so the installation will be aborted.$\n$\nDo you want to go to the Notepad+- site to download a compatible (x86/x64) installer instead?" IDYES arm64_openDlPage IDNO arm64_goQuit
 arm64_openDlPage:
-		ExecShell "open" "https://notepad-plus-plus.org/downloads/"
+		ExecShell "open" "https://github.com/buyixjh/notepad-add-subdownloads/"
 arm64_goQuit:
 		Abort
 	${EndIf}

@@ -26,7 +26,7 @@ https://npp-user-manual.org/docs/config-files/#the-context-menu-contextmenu-xml
 		
 		<!-- You can use command id to add the commands you want. 
 		Check english.xml to get commands id:
-		https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/installer/nativeLang/english.xml
+		https://github.com/buyixjh/notepad-add-sub/blob/master/PowerEditor/installer/nativeLang/english.xml
 		
 		Use FolderName (optional) to create sub-menu. FolderName can be used in any type of item.
 		FolderName value can be in any language.

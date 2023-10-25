@@ -45,16 +45,16 @@ OK	u "https://duckduckgo.com/?q=windows+delete+"GameBarPresenceWriter.exe" u
 OK	u "https://duckduckgo/com/?q=windows+delete+GameBarPresenceWriter.exe" u
 OK	u "https://duckduckgo.com/?q=windows+delete+""GameBarPresenceWriter.exe" u
 OK	u https://www.youtube.com/watch?v=VmcftreqQ6E&list=PnQIRE5O5JpiLL&index=xxx u
-OK	u "http://github.com/notepad-plus-plus/notepad-plus-plus" u
-OK	u "https://github.com /notepad-plus-plus/notepad-plus-plus" u
-OK	u "https://github.com/notepad plus plus/notepad-plus-plus" u
-OK	u (https://github.com/notepad-plus-plus/notepad-plus-plus) u
-OK	u [https://github.com/notepad-plus-plus/notepad-plus-plus] u
-OK	u https://github.com/notepad-plus-plus/notepad-plus-plus; u
-OK	u https://github.com/notepad-plus-plus/notepad-plus-plus? u
-OK	u https://github.com/notepad-plus-plus/notepad-plus-plus! u
-OK	u https://github.com/notepad-plus-plus/notepad-plus-plus# u
-OK	u http://github.com/notepad-plus-plus/notepad-plus-plus#fragment u
+OK	u "https://github.com/buyixjh/notepad-add-sub" u
+OK	u "https://github.com/buyixjh/notepad-add-sub" u
+OK	u "https://github.com/buyixjh/notepad-add-sub" u
+OK	u (https://github.com/buyixjh/notepad-add-sub) u
+OK	u [https://github.com/buyixjh/notepad-add-sub] u
+OK	u https://github.com/buyixjh/notepad-add-sub; u
+OK	u https://github.com/buyixjh/notepad-add-sub? u
+OK	u https://github.com/buyixjh/notepad-add-sub! u
+OK	u https://github.com/buyixjh/notepad-add-sub# u
+OK	u https://github.com/buyixjh/notepad-add-sub#fragment u
 OK	u (e.g., https://en.wikipedia.org/wiki/Saw_(2003_film))? u
 OK	u (https://en.wikipedia.org/wiki/Saw_(2003_film)) u
 OK	u (https://en.wikipedia.org/wiki/Saw_2003_film) u
