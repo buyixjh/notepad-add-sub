@@ -22,7 +22,7 @@
 
 const TCHAR* nppName   = TEXT("Notepad+-_file");
 const TCHAR* nppBackup = TEXT("Notepad+-_backup");
-const TCHAR* nppDoc    = TEXT("Notepad+- Document");
+const TCHAR* nppDoc    = TEXT("文本文档");
 
 const int nbSupportedLang = 10;
 const int nbExtMax = 27;
