@@ -51,12 +51,15 @@ Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}"; ValueType: string; Value
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
 Root: HKA; Subkey: "Software\Classes\Applications\{#MyAppExeName}\SupportedTypes"; ValueType: string; ValueName: ".myp"; ValueData: ""
+Root: HKCR; Subkey: "*\shell\Notepad+-"; ValueType: string; ValueName: ""; ValueData: "Notepad+-"
+Root: HKCR; Subkey: "*\shell\Notepad+-\Command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
+
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Run]
-Filename: "{win}\regedit.exe";Parameters:"/s D:\workspace\notepad-add-sub\PowerEditor\gcc\n+-ÓÒ¼ü²Ëµ¥Ìí¼Ó.reg"
+;Filename: "{win}\regedit.exe";Parameters:"/s D:\workspace\notepad-add-sub\PowerEditor\gcc\n+-ÓÒ¼ü²Ëµ¥Ìí¼Ó.reg"
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
