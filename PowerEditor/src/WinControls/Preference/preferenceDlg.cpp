@@ -1129,7 +1129,7 @@ intptr_t CALLBACK EditingSubDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM
 
 				case IDC_BUTTON_NPC_NOTE:
 				{
-					::ShellExecute(NULL, L"open", L"https://npp-user-manual.org/docs/views/#show-symbol", NULL, NULL, SW_SHOWNORMAL);
+					::ShellExecute(NULL, L"open", L"https://github.com/buyixjh/notepad-add-sub/docs/views/#show-symbol", NULL, NULL, SW_SHOWNORMAL);
 					return TRUE;
 				}
 

@@ -4,7 +4,7 @@ By modifying this file and renaming it to "tabContextMenu.xml", you can customiz
 It may be more convenient to access to your frequent used commands via the context menu than via the top menu.
 
 Please check "How to Customize the Context Menu" on:
-https://npp-user-manual.org/docs/config-files/#the-context-menu-tabcontextmenu-xml
+https://github.com/buyixjh/notepad-add-sub/docs/config-files/#the-context-menu-tabcontextmenu-xml
 -->
 <NotepadPlus>
     <TabContextMenu>

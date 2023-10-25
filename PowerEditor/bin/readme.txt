@@ -1,7 +1,7 @@
 What is Notepad+-?
 ******************
 
-Notepad+- is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement (https://npp-user-manual.org/docs/other-resources/#notepad-replacement) that supports several programming languages and natural languages. Running in the MS Windows environment, its use is governed by GPL (GNU General Public License).
+Notepad+- is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement (https://github.com/buyixjh/notepad-add-sub/docs/other-resources/#notepad-replacement) that supports several programming languages and natural languages. Running in the MS Windows environment, its use is governed by GPL (GNU General Public License).
 
 
 Why another source code editor?
@@ -29,7 +29,7 @@ Notepad+- project site:
 	https://github.com/buyixjh/notepad-add-sub/
 
 Notepad+- user manual:
-	https://npp-user-manual.org/
+	https://github.com/buyixjh/notepad-add-sub/
 
 Notepad+- forum:
 	https://github.com/buyixjh/notepad-add-sub

@@ -3416,7 +3416,7 @@ void Notepad_plus::command(int id)
 
 		case IDM_ONLINEDOCUMENT:
 		{
-			::ShellExecute(NULL, TEXT("open"), TEXT("https://npp-user-manual.org/"), NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, TEXT("open"), TEXT("https://github.com/buyixjh/notepad-add-sub/"), NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
