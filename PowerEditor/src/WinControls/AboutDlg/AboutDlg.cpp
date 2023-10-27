@@ -1,5 +1,5 @@
 // This file is part of Notepad+- project
-// Copyright (C)2021 Don HO <don.h@free.fr>
+// Copyright (C)2021 buyixjh <wurenzhi.com>
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -50,7 +50,7 @@ intptr_t CALLBACK AboutDlg::run_dlgProc(UINT message, WPARAM wParam, LPARAM lPar
 			::SendMessage(licenceEditHandle, WM_SETTEXT, 0, reinterpret_cast<LPARAM>(LICENCE_TXT));
 
             //_emailLink.init(_hInst, _hSelf);
-			//_emailLink.create(::GetDlgItem(_hSelf, IDC_AUTHOR_NAME), TEXT("mailto:don.h@free.fr"));
+			//_emailLink.create(::GetDlgItem(_hSelf, IDC_AUTHOR_NAME), TEXT("mailto:wurenzhi.com"));
 			//_emailLink.create(::GetDlgItem(_hSelf, IDC_AUTHOR_NAME), TEXT("https://github.com/buyixjh/notepad-add-subnews/v781-free-uyghur-edition/"));
 			//_emailLink.create(::GetDlgItem(_hSelf, IDC_AUTHOR_NAME), TEXT("https://github.com/buyixjh/notepad-add-subnews/v792-stand-with-hong-kong/"));
 			//_emailLink.create(::GetDlgItem(_hSelf, IDC_AUTHOR_NAME), TEXT("https://github.com/buyixjh/notepad-add-subnews/v791-pour-samuel-paty/"));

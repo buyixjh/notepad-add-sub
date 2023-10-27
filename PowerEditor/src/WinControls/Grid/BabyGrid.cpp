@@ -7,7 +7,7 @@
 
 /*
 Add WM_MOUSEWHEEL, WM_LBUTTONDBLCLK and WM_RBUTTONUP events
-Modified by Don HO <don.h@free.fr>
+Modified by buyixjh <wurenzhi.com>
 */
 
 #include "BabyGrid.h"

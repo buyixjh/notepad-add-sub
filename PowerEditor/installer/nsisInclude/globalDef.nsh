@@ -1,5 +1,5 @@
 ; This file is part of Notepad+- project
-; Copyright (C)2021 Don HO <don.h@free.fr>
+; Copyright (C)2021 buyixjh <wurenzhi.com>
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
@@ -52,11 +52,11 @@
 ; ------------------------------------------------------------------------
 
 !define APPNAMEANDVERSION	"${APPNAME} v${APPVERSION}"
-!define CompanyName		"Don HO don.h@free.fr"
+!define CompanyName		"buyixjh wurenzhi.com"
 !define Description		"Notepad+- : a free (GNU) source code editor"
 !define Version		"${nppVer_1}.${nppVer_2}.${nppVer_3}.${nppVer_4}"
 !define ProdVer		"${VERSION_MAJOR}.${VERSION_MINOR}"
-!define LegalCopyright		"Copyleft 1998-2017 by Don HO"
+!define LegalCopyright		"Copyleft 1998-2017 by buyixjh"
 
 !define APPWEBSITE "https://github.com/buyixjh/notepad-add-sub"
 

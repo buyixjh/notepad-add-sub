@@ -4,7 +4,7 @@
  **/
 // Copyright 1998-2002 by Neil Hodgson <neilh@scintilla.org>
 // The License.txt file describes the conditions under which this software may be distributed.
-// Modified by Don <don.h@free.fr> 2004 to add lexer Object C
+// Modified by <wurenzhi.com> 2004 to add lexer Object C
 
 #include <stdlib.h>
 #include <string.h>

@@ -38,5 +38,5 @@ Notepad+- forum:
 Author:
 *******
 
-Don Ho <don.h@free.fr>
+buyixjh <wurenzhi.com>
 	https://github.com/buyixjh/notepad-add-subauthor/

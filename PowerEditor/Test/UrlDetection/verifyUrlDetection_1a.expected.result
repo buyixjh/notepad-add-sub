@@ -115,10 +115,10 @@ OK	u http://xxx.xxx/xxx{xxx}} u
 OK	u http://xxx.xxx/xxx{xxx} u
 OK	u http://xxx.xxx/xxx?q={xxx}} u
 OK	u http://xxx.xxx/xxx?q={xxx};{"[]()''`}} u
-OK	u mailto:don.h@free.fr u
-OK	u <don.h@free.fr> u
-OK	u <mailto:don.h@free.fr> u
-OK	u http:don.h@free.fr u
+OK	u mailto:wurenzhi.com u
+OK	u <wurenzhi.com> u
+OK	u <mailto:wurenzhi.com> u
+OK	u http:wurenzhi.com u
 OK	u <ftp://ds.internic.net/rfc/rfc977.txt> u
 OK	u ftp://host:444/0a_gopher_selector%09%09some_gplus_stuff u
 OK	u ftp://host:abc/0a_gopher_selector%09%09some_gplus_stuff u
